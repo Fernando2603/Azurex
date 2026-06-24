@@ -41,7 +41,7 @@ def ls_files(repository: str) -> Iterator[str]:
 
 
 def git_add(repository: str, files: list[str]) -> None:
-  base_cmd = ["git", "-C", repository, "add", "--"]
+  base_cmd = ["git", "-C", repository, "add", "--sparse", "--"]
   base_len = sum(len(s) + 1 for s in base_cmd)
 
   batch: list[str] = []

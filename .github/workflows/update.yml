@@ -51,8 +51,8 @@ jobs:
       - name: Install Python Dependencies
         run: pip install -r requirements.txt
 
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Setup FFmpeg
+        with: AnimMouse/setup-ffmpeg@v1
 
       - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
         run: |
