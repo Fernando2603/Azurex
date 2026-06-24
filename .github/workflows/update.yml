@@ -56,6 +56,7 @@ jobs:
 
       - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
         run: |
+          git config --global url."https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/".insteadOf "https://github.com/"
           git clone https://github.com/Fernando2603/AzurLane.git --filter=blob:none --sparse
           git clone https://github.com/Fernando2603/AzurAssets.git --filter=blob:none --sparse
 
