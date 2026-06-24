@@ -1,0 +1,77 @@
+name: Check and update assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      update: ${{ steps.version.outputs.update }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Version
+        id: version
+        run: |
+          output=$(python ./check.py)
+          read -ra values <<< "$output"
+          echo "version=${values[0]}" >> "$GITHUB_OUTPUT"
+          echo "update=${values[1]}" >> "$GITHUB_OUTPUT"
+
+  update:
+    runs-on: ubuntu-latest
+    needs: check
+    if: ${{ needs.check.outputs.update == 'true' }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
+        run: |
+          git clone https://github.com/Fernando2603/AzurLane.git --filter=blob:none --sparse
+          git clone https://github.com/Fernando2603/AzurAssets.git --filter=blob:none --sparse
+
+      - name: Download Assets
+        run: azl download EN
+
+      - name: Extracting Assets
+        run: python extract.py
+
+      - name: Update Dependencies
+        run: python update.py
+
+      - name: Link & Parse Assets
+        run: |
+          python linker.py
+          python parse.py
+
+      - name: Commit Repository
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          python commit.py

@@ -1,0 +1,14 @@
+ClientAssets/*/AssetBundles/**
+!ClientAssets/*/AssetBundles/dependencies
+ClientExtract
+*.obb
+*test.*
+*__pycache__*
+
+# used for local debug only
+linker.json
+painting_map.json
+
+# subrepo
+AzurAssets
+AzurLane

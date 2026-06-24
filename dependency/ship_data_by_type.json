@@ -1,0 +1,601 @@
+{
+  "1": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      8,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      51
+    ],
+    "energy_recover_food_ratio": 0.09,
+    "team_limit": 3,
+    "type_name": "Destroyer",
+    "energy_recover_time_ratio": 1,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 8,
+    "distory_resource_gold_ratio": 12,
+    "ship_type": 1
+  },
+  "2": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      52
+    ],
+    "energy_recover_food_ratio": 0.12,
+    "team_limit": 3,
+    "type_name": "Light Cruiser",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 20,
+    "distory_resource_gold_ratio": 14,
+    "ship_type": 2
+  },
+  "3": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      53
+    ],
+    "energy_recover_food_ratio": 0.18,
+    "team_limit": 3,
+    "type_name": "Heavy Cruiser",
+    "energy_recover_time_ratio": 2,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 35,
+    "distory_resource_gold_ratio": 18,
+    "ship_type": 3
+  },
+  "4": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      54
+    ],
+    "energy_recover_food_ratio": 0.24,
+    "team_limit": 3,
+    "type_name": "Battlecruiser",
+    "energy_recover_time_ratio": 2,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 42,
+    "distory_resource_gold_ratio": 22,
+    "ship_type": 4
+  },
+  "5": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      55
+    ],
+    "energy_recover_food_ratio": 0.3,
+    "team_limit": 3,
+    "type_name": "Battleship",
+    "energy_recover_time_ratio": 3,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 50,
+    "distory_resource_gold_ratio": 26,
+    "ship_type": 5
+  },
+  "6": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      7,
+      6,
+      9,
+      10,
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      12
+    ],
+    "arena_buff": [
+      56
+    ],
+    "energy_recover_food_ratio": 0.18,
+    "team_limit": 3,
+    "type_name": "Light Carrier",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 25,
+    "distory_resource_gold_ratio": 16,
+    "ship_type": 6
+  },
+  "7": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      7,
+      6,
+      9,
+      10,
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      12
+    ],
+    "arena_buff": [
+      57
+    ],
+    "energy_recover_food_ratio": 0.27,
+    "team_limit": 3,
+    "type_name": "Aircraft Carrier",
+    "energy_recover_time_ratio": 2.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 40,
+    "distory_resource_gold_ratio": 24,
+    "ship_type": 7
+  },
+  "8": {
+    "team_type": "submarine",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [],
+    "energy_recover_food_ratio": 0.06,
+    "team_limit": 3,
+    "type_name": "Submarine",
+    "energy_recover_time_ratio": 0.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 6,
+    "distory_resource_gold_ratio": 10,
+    "ship_type": 8
+  },
+  "9": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      7,
+      6,
+      9,
+      10,
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      12
+    ],
+    "arena_buff": [
+      53
+    ],
+    "energy_recover_food_ratio": 0.21,
+    "team_limit": 3,
+    "type_name": "Aviation Cruiser",
+    "energy_recover_time_ratio": 2,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 32,
+    "distory_resource_gold_ratio": 18,
+    "ship_type": 9
+  },
+  "10": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      7,
+      6,
+      9,
+      10,
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      12
+    ],
+    "arena_buff": [
+      55
+    ],
+    "energy_recover_food_ratio": 0.27,
+    "team_limit": 3,
+    "type_name": "Aviation Battleship",
+    "energy_recover_time_ratio": 2.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 45,
+    "distory_resource_gold_ratio": 25,
+    "ship_type": 10
+  },
+  "11": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      8,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      52
+    ],
+    "energy_recover_food_ratio": 0.12,
+    "team_limit": 3,
+    "type_name": "Torpedo Cruiser",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 1,
+    "distory_resource_gold_ratio": 15,
+    "ship_type": 11
+  },
+  "12": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [],
+    "energy_recover_food_ratio": 0.15,
+    "team_limit": 3,
+    "type_name": "Repair",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 10,
+    "distory_resource_gold_ratio": 13,
+    "ship_type": 12
+  },
+  "13": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [],
+    "energy_recover_food_ratio": 0.12,
+    "team_limit": 3,
+    "type_name": "Monitor",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 18,
+    "distory_resource_gold_ratio": 13,
+    "ship_type": 13
+  },
+  "17": {
+    "team_type": "submarine",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      6,
+      7,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      12
+    ],
+    "arena_buff": [],
+    "energy_recover_food_ratio": 0.06,
+    "team_limit": 3,
+    "type_name": "Aviation Submarine ",
+    "energy_recover_time_ratio": 0.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 6,
+    "distory_resource_gold_ratio": 10,
+    "ship_type": 17
+  },
+  "18": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      53
+    ],
+    "energy_recover_food_ratio": 0.18,
+    "team_limit": 3,
+    "type_name": "Large Cruiser ",
+    "energy_recover_time_ratio": 2,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 35,
+    "distory_resource_gold_ratio": 19,
+    "ship_type": 18
+  },
+  "19": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      51
+    ],
+    "energy_recover_food_ratio": 0.15,
+    "team_limit": 3,
+    "type_name": "Munition Ship ",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 10,
+    "distory_resource_gold_ratio": 11,
+    "ship_type": 19
+  },
+  "20": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      8,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      51
+    ],
+    "energy_recover_food_ratio": 0.09,
+    "team_limit": 3,
+    "type_name": "DDG",
+    "energy_recover_time_ratio": 1,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 8,
+    "distory_resource_gold_ratio": 12,
+    "ship_type": 20
+  },
+  "21": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      1,
+      8,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      55
+    ],
+    "energy_recover_food_ratio": 0.09,
+    "team_limit": 3,
+    "type_name": "DDG",
+    "energy_recover_time_ratio": 1,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 8,
+    "distory_resource_gold_ratio": 12,
+    "ship_type": 21
+  },
+  "22": {
+    "team_type": "submarine",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [],
+    "energy_recover_food_ratio": 0.09,
+    "team_limit": 3,
+    "type_name": "Sailing Frigate",
+    "energy_recover_time_ratio": 1,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 8,
+    "distory_resource_gold_ratio": 12,
+    "ship_type": 22
+  },
+  "23": {
+    "team_type": "vanguard",
+    "strengthen_choose_type": [
+      1,
+      2,
+      11,
+      3,
+      4,
+      5,
+      13,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      52
+    ],
+    "energy_recover_food_ratio": 0.12,
+    "team_limit": 3,
+    "type_name": "Sailing Frigate",
+    "energy_recover_time_ratio": 1.5,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 20,
+    "distory_resource_gold_ratio": 14,
+    "ship_type": 23
+  },
+  "24": {
+    "team_type": "main",
+    "strengthen_choose_type": [
+      5,
+      4,
+      13,
+      1,
+      2,
+      11,
+      3,
+      8,
+      10,
+      9,
+      6,
+      7,
+      12
+    ],
+    "arena_buff": [
+      54
+    ],
+    "energy_recover_food_ratio": 0.24,
+    "team_limit": 3,
+    "type_name": "Sailing Frigate",
+    "energy_recover_time_ratio": 2,
+    "distory_resource_oil_ratio": 0,
+    "fix_resource_gold": 42,
+    "distory_resource_gold_ratio": 22,
+    "ship_type": 24
+  }
+}

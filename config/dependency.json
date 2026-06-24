@@ -1,0 +1,21 @@
+{
+  "repository": "https://raw.githubusercontent.com/Fernando2603/AzurLaneData",
+  "branch": "main",
+  "files": [
+    "gamecfg/buff.json",
+    "sharecfg/name_code.json",
+    "sharecfg/character_voice.json",
+    "sharecfg/commander_ability_group.json",
+    "sharecfg/commander_ability_template.json",
+    "sharecfg/commander_data_template.json",
+    "sharecfg/commander_skill_template.json",
+    "sharecfg/ship_data_group.json",
+    "sharecfg/ship_skin_words_extra.json",
+    "sharecfg/skill_data_template.json",
+    "sharecfg/skin_page_template.json",
+    "sharecfgdata/equip_data_statistics.json",
+    "sharecfgdata/equip_data_template.json",
+    "sharecfgdata/ship_skin_template.json",
+    "sharecfgdata/ship_skin_words.json"
+  ]
+}

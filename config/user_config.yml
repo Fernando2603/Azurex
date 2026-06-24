@@ -1,0 +1,59 @@
+asset-directory: ClientAssets
+extract-directory: ClientExtract
+# set to blacklist or whitelist
+download-folder-listtype: whitelist
+extract-folder-listtype: whitelist
+download-folder-list:
+- aircrafticon
+- bg
+- commanderhrz
+- commandericon
+- commanderpainting
+- commanderskillicon
+- commandertalenticon
+- cue
+- enemies
+- equips
+- gallerypic
+- herohrzicon
+- mangapic
+- painting
+- paintingface
+- prints
+- props
+- qicon
+- shipmodels
+- shipyardicon
+- skillicon
+- spweapon
+- squareicon
+- attricon     # file
+- shiptype     # file
+- dependencies # file
+extract-folder-list:
+- aircrafticon
+- bg
+- commanderhrz
+- commandericon
+- commanderpainting
+- commanderskillicon
+- commandertalenticon
+- cue
+- enemies
+- equips
+- gallerypic
+- herohrzicon
+- mangapic
+- painting
+- paintingface
+- prints
+- props
+- qicon
+- shipmodels
+- shipyardicon
+- skillicon
+- spweapon
+- squareicon
+- attricon # file
+- shiptype # file
+useragent: ''

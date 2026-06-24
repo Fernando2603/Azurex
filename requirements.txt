@@ -1,0 +1,11 @@
+lupa==2.8
+azlassets==4.2.0
+UnityPy==1.25.0
+pydantic==2.13.4
+requests==2.27.1
+Pillow>=9.4.0
+pydub==0.25.1
+pydub-stubs==0.25.1
+tinytag==1.10.1
+acb-py==1.2.4
+azurpaint==1.0.4
