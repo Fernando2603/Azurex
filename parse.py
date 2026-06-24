@@ -6,7 +6,7 @@ from azlassets import config, versioncontrol
 from azlassets.classes import Client, VersionType
 from pydantic import TypeAdapter
 
-from config import PARSER_ROOT, ROOT
+from config import PARSER_ROOT, ROOT, VERSION
 from parser.bgm import bgm
 from parser.equipment import equipment
 from parser.meowfficer import meowfficer
@@ -43,6 +43,9 @@ def parse_version() -> None:
 
     create_version_badge(vtype.name, version)
     Path(PARENT, f"{vtype.name}.txt").write_text(version, encoding="utf-8")
+
+  create_version_badge("REPOSITORY", VERSION)
+  Path(PARENT, "REPOSITORY.txt").write_text(VERSION, encoding="utf-8")
 
 
 @runtime
