@@ -52,7 +52,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Setup FFmpeg
-        with: AnimMouse/setup-ffmpeg@v1
+        uses: AnimMouse/setup-ffmpeg@v1
 
       - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
         run: |
