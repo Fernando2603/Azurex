@@ -29,26 +29,26 @@ class SharedSkin(Skin):
 
 
 class ShipSkin(BaseModel):
-  id: int
+  gid: int
   name: str
   skins: dict[str, Skin | SharedSkin]
 
   def as_list(self) -> "ShipSkinList":
     return ShipSkinList.model_construct(
-      id=self.id,
+      gid=self.gid,
       name=self.name,
       skins=list(self.skins.values()),
     )
 
 
 class ShipSkinList(BaseModel):
-  id: int
+  gid: int
   name: str
   skins: list[Skin | SharedSkin]
 
   def as_dict(self) -> ShipSkin:
     return ShipSkin.model_construct(
-      id=self.id,
+      gid=self.gid,
       name=self.name,
       skins={str(v.id): v for v in self.skins},
     )

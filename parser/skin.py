@@ -95,7 +95,7 @@ def skin(linker: dict[str, str]) -> None:
         )
 
     ship_skin[str(data.group_type)] = ShipSkin(
-      id=data.group_type,
+      gid=data.group_type,
       name=group_name[data.group_type],
       skins=skins,
     )
