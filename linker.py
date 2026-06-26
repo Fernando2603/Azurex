@@ -194,7 +194,7 @@ def meowfficer(files: dict[str, str]) -> None:
         continue
 
       target = f"{parent}/skill/{data.icon}.png"
-      files[f"meowfficer.skill.{data.icon}"] = f"{ASSET_LINK}/{target}"
+      files[f"meowfficer.skill.{data.id}"] = f"{ASSET_LINK}/{target}"
 
       if source in untracked:
         link(source, target)
