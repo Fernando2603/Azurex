@@ -19,4 +19,4 @@ class Skill(BaseModel):
 
 
 SkillAdapter = TypeAdapter(dict[str, Skill])
-SkillListAdapter = TypeAdapter(list[Skill])
+SkillIconAdapter = TypeAdapter(dict[str, str | None])

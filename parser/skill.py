@@ -2,7 +2,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from config import PARSER_ROOT
-from model.Skill import Skill, SkillAdapter, SkillListAdapter
+from model.Skill import Skill, SkillAdapter, SkillIconAdapter
 from utility.debug import runtime
 from utility.dependency import load_dependency, unload_dependency
 from utility.resolver import resolve_namecode
@@ -65,7 +65,7 @@ def skill(linker: dict[str, str]) -> None:
   SKILL_PATH = Path(PARSER_ROOT, "skill.json")
   SKILL_PATH.write_bytes(SkillAdapter.dump_json(result, indent=2, ensure_ascii=False))
 
-  SKILL_LIST_PATH = Path(PARSER_ROOT, "skill_icon.json")
-  SKILL_LIST_PATH.write_bytes(
-    SkillListAdapter.dump_json(list(result.values()), indent=2, ensure_ascii=False)
+  SKILL_ICON_PATH = Path(PARSER_ROOT, "skill_icon.json")
+  SKILL_ICON_PATH.write_bytes(
+    SkillIconAdapter.dump_json({k: v.icon for k, v in result.items()}, indent=2, ensure_ascii=False)
   )

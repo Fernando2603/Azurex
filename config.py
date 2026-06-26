@@ -2,7 +2,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 LINK = "https://raw.githubusercontent.com/Fernando2603/AzurLane/main"
-VERSION = "5.1.7"
+VERSION = "5.1.8"
 """
 MAJOR: json key deleted
 MINOR: json key added without deletion (backward compatible)

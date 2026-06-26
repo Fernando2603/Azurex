@@ -1,0 +1,44 @@
+name: Parse assets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
+        run: |
+          git config --global url."https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git clone https://github.com/Fernando2603/AzurLane.git --filter=blob:none --sparse
+          git clone https://github.com/Fernando2603/AzurAssets.git --filter=blob:none --sparse
+
+      - name: Update Dependencies
+        run: python update.py
+
+      - name: Link & Parse Assets
+        run: |
+          python linker.py
+          python parse.py
+
+      - name: Commit Repository
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          python commit.py
