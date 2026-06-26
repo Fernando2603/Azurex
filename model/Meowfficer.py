@@ -26,6 +26,7 @@ class Meowfficer(BaseModel):
   id: int
   name: str
   rarity: str
+  type: list[str]
   slot: Literal["General", "Command", "Staff"]
   timer: str | None
   nationality: int

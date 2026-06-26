@@ -107,6 +107,7 @@ def meowfficer(linker: dict[str, str]) -> None:
       id=data.id,
       name=data.name,
       rarity=parse_meowfficer_rarity(data.rarity),
+      type=MEOWFFICER_DATA.get(id, {}).get("type", []),  # type: ignore
       slot=MEOWFFICER_DATA.get(id, {}).get("slot", "General"),  # type: ignore
       timer=MEOWFFICER_DATA.get(id, {}).get("timer", None),  # type: ignore
       nationality=data.nationality,
