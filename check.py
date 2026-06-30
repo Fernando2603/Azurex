@@ -35,7 +35,16 @@ def check(client: Client):
 
   should_update: bool = False
 
-  for vtype in VersionType:
+  version_types = (
+    VersionType.AZL,
+    VersionType.PAINTING,
+    VersionType.MANGA,
+    VersionType.PIC,
+    VersionType.CV,
+    VersionType.BGM,
+  )
+
+  for vtype in version_types:
     old = versioncontroller.load_version_string(vtype)
     new = version[vtype]
 
