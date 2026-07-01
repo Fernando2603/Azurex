@@ -1,5 +1,4 @@
-from contextlib import redirect_stderr, redirect_stdout
-from io import StringIO
+import subprocess
 from pathlib import Path
 
 from azlassets import config, protobuf, versioncontrol
@@ -24,27 +23,16 @@ def get_version(clientconfig: config.ClientConfig) -> dict[VersionType, str]:
   return result
 
 
-def check(client: Client):
+def download(client: Client):
+  subprocess.run(["azl", "download", "EN"])
+
   userconfig = config.load_user_config()
   clientconfig = config.load_client_config(client)
   client_directory = Path(userconfig.asset_directory, client.name)
   versioncontroller = versioncontrol.VersionController(client_directory)
 
-  with redirect_stdout(StringIO()), redirect_stderr(StringIO()):
-    version = get_version(clientconfig)
+  for vtype, version in get_version(clientconfig).items():
+    versioncontroller.save_version_string(vtype, version)
 
-  should_update: bool = False
-
-  for vtype in VersionType:
-    old = versioncontroller.load_version_string(vtype)
-    new = version[vtype]
-
-    if versioncontrol.compare_version_string(new, old):
-      should_update = True
-      break
-
-  print(version[VersionType.AZL], should_update)
-
-
-if __name__ == "__main__":
-  check(Client.EN)
+if __name__ == '__main__':
+  download(Client.EN)

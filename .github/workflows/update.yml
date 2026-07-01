@@ -61,7 +61,7 @@ jobs:
           git clone https://github.com/Fernando2603/AzurAssets.git --filter=blob:none --sparse
 
       - name: Download Assets
-        run: azl download EN
+        run: python download.py
 
       - name: Extracting Assets
         run: python extract.py

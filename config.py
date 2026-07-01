@@ -6,7 +6,7 @@ VERSION = "5.1.8"
 """
 MAJOR: json key deleted
 MINOR: json key added without deletion (backward compatible)
-PATCH: bug fix, misc, etc.
+PATCH: bug fix that affect json.
 """
 
 # Linker
