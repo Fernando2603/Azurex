@@ -1,11 +1,10 @@
+from pathlib import Path
 from subprocess import check_output
 
 
-def ls_tree(repository: str, folder: str | None = None) -> dict[str, str]:
+def ls_tree(repository: Path, folder: str | None = None) -> dict[str, str]:
   args = [
     "git",
-    "-C",
-    repository,
     "-c",
     "core.quotepath=false",
     "ls-tree",
@@ -17,5 +16,5 @@ def ls_tree(repository: str, folder: str | None = None) -> dict[str, str]:
   if folder is not None:
     args.append(folder)
 
-  result = check_output(args, text=True, encoding="utf-8")
+  result = check_output(args, cwd=repository, text=True, encoding="utf-8")
   return dict(line.split("<LS_TREE_SEPARATOR>") for line in result.splitlines())

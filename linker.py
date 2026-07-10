@@ -1,5 +1,6 @@
 import json
 import os
+import subprocess
 from pathlib import Path
 from typing import Literal
 
@@ -29,8 +30,6 @@ PARENT: dict[SubdirParent, str] = {
   "voiceline": "audio/voiceline",
 }
 
-ASSET_LINK = LINK.rstrip("/")
-
 
 def link(source: str, target: str) -> None:
   src = Path(LINKER_SOURCE, source)
@@ -42,8 +41,8 @@ def link(source: str, target: str) -> None:
 
   dst = Path(LINKER_TARGET, target)
 
-  # expected to be run on actions so r[epo always start at fresh
-  # this make local machine run faster]
+  # expected to be run on actions so repo always start at fresh
+  # this make local machine run faster
   if dst.exists():
     return
 
@@ -51,19 +50,19 @@ def link(source: str, target: str) -> None:
   os.link(src, dst)
 
 
-def get_file_list(source: str) -> tuple[set[str], set[str]]:
-  tracked = set(ls_tree(LINKER_SOURCE.as_posix(), source))
-  untracked = get_untracked_files(source)
+def get_file_list(folder: str, repository: Path = LINKER_SOURCE) -> tuple[set[str], set[str]]:
+  tracked = set(ls_tree(repository, folder))
+  untracked = get_untracked_files(folder, repository)
   return tracked, untracked
 
 
-def get_untracked_files(source: str) -> set[str]:
-  src = Path(LINKER_SOURCE, source)
+def get_untracked_files(folder: str, repository: Path = LINKER_SOURCE) -> set[str]:
+  path = Path(repository, folder)
 
-  if not src.exists():
+  if not path.exists():
     return set()
 
-  return {file.relative_to(LINKER_SOURCE).as_posix() for file in src.rglob("*") if file.is_file()}
+  return {file.relative_to(repository).as_posix() for file in path.rglob("*") if file.is_file()}
 
 
 @runtime
@@ -85,7 +84,7 @@ def link_extract_to_source() -> None:
 
 
 @runtime
-def background(files: dict[str, str]) -> None:
+def background(files: dict[str, tuple[str, str]]) -> None:
   parent = PARENT["background"]
   tracked, untracked = get_file_list("EN/bg")
 
@@ -95,14 +94,14 @@ def background(files: dict[str, str]) -> None:
 
     name = path.rsplit("_", 1)[1]
     target = f"{parent}/{name}"
-    files[f"background.{Path(name).stem}"] = f"{ASSET_LINK}/{target}"
+    files[f"background.{Path(name).stem}"] = (path, target)
 
     if path in untracked:
       link(path, target)
 
 
 @runtime
-def bgm(files: dict[str, str]) -> None:
+def bgm(files: dict[str, tuple[str, str]]) -> None:
   parent = PARENT["bgm"]
   tracked, untracked = get_file_list("EN/cue")
 
@@ -112,14 +111,14 @@ def bgm(files: dict[str, str]) -> None:
 
     name = path.split("/")[2].replace(" ", "_")[4:]
     target = f"{parent}/{name}.{path.rsplit('.', 1)[1]}"
-    files[f"bgm.{Path(name).stem}"] = f"{ASSET_LINK}/{target}"
+    files[f"bgm.{Path(name).stem}"] = (path, target)
 
     if path in untracked:
       link(path, target)
 
 
 @runtime
-def equipment(files: dict[str, str]) -> None:
+def equipment(files: dict[str, tuple[str, str]]) -> None:
   parent = PARENT["equipment"]
   tracked, untracked = get_file_list("EN/equips")
   file_list = tracked | untracked
@@ -135,14 +134,14 @@ def equipment(files: dict[str, str]) -> None:
         continue
 
       target = f"{parent}/{data.icon}.png"
-      files[f"equipment.{data.icon}"] = f"{ASSET_LINK}/{target}"
+      files[f"equipment.{data.icon}"] = (source, target)
 
       if source in untracked:
         link(source, target)
 
 
 @runtime
-def meowfficer(files: dict[str, str]) -> None:
+def meowfficer(files: dict[str, tuple[str, str]]) -> None:
   ASSET_FOLDER = {
     "banner": "EN/commanderhrz",
     "icon": "EN/commandericon",
@@ -175,7 +174,7 @@ def meowfficer(files: dict[str, str]) -> None:
 
         asset_id = _get_asset_id(id=str(data.id), rarity=data.rarity)
         target = f"{parent}/{asset_id}/{asset_type}.png"
-        files[f"meowfficer.{asset_type}.{asset_id}"] = f"{ASSET_LINK}/{target}"
+        files[f"meowfficer.{asset_type}.{asset_id}"] = (source, target)
 
         if source in untracked:
           link(source, target)
@@ -194,7 +193,7 @@ def meowfficer(files: dict[str, str]) -> None:
         continue
 
       target = f"{parent}/skill/{data.icon}.png"
-      files[f"meowfficer.skill.{data.id}"] = f"{ASSET_LINK}/{target}"
+      files[f"meowfficer.skill.{data.id}"] = (source, target)
 
       if source in untracked:
         link(source, target)
@@ -214,14 +213,14 @@ def meowfficer(files: dict[str, str]) -> None:
         continue
 
       target = f"{parent}/talent/{icon}.png"
-      files[f"meowfficer.talent.{data.icon}"] = f"{ASSET_LINK}/{target}"
+      files[f"meowfficer.talent.{data.icon}"] = (source, target)
 
       if source in untracked:
         link(source, target)
 
 
 @runtime
-def skin(files: dict[str, str]) -> None:
+def skin(files: dict[str, tuple[str, str]]) -> None:
   ASSET_FOLDER = {
     "painting": "EN/painting",
     "banner": "EN/herohrzicon",
@@ -244,7 +243,7 @@ def skin(files: dict[str, str]) -> None:
 
         if (asset_type == "painting") and ((pns := f"{folder}/{painting}_n.png") in file_list):
           pnt = f"{parent}/{id}/painting_n.png"
-          files[f"skin.{id}.painting_n"] = f"{ASSET_LINK}/{pnt}"
+          files[f"skin.{id}.painting_n"] = (pns, pnt)
 
           if pns in untracked:
             link(pns, pnt)
@@ -253,14 +252,14 @@ def skin(files: dict[str, str]) -> None:
           continue
 
         target = f"{parent}/{id}/{asset_type}.png"
-        files[f"skin.{id}.{asset_type}"] = f"{ASSET_LINK}/{target}"
+        files[f"skin.{id}.{asset_type}"] = (source, target)
 
         if source in untracked:
           link(source, target)
 
 
 @runtime
-def skill(files: dict[str, str]) -> None:
+def skill(files: dict[str, tuple[str, str]]) -> None:
   parent = PARENT["skill"]
   tracked, untracked = get_file_list("EN/skillicon")
   file_list = tracked | untracked
@@ -281,14 +280,14 @@ def skill(files: dict[str, str]) -> None:
         continue
 
       target = f"{parent}/{icon}.png"
-      files[f"skill.{skill_id}"] = f"{ASSET_LINK}/{target}"
+      files[f"skill.{skill_id}"] = (source, target)
 
       if source in untracked:
         link(source, target)
 
 
 @runtime
-def voiceline(files: dict[str, str]) -> None:
+def voiceline(files: dict[str, tuple[str, str]]) -> None:
   parent = PARENT["voiceline"]
   tracked, untracked = get_file_list("EN/cue")
   file_list = tracked | untracked
@@ -311,7 +310,7 @@ def voiceline(files: dict[str, str]) -> None:
           continue
 
         target = f"{parent}/{id}/{voicekey}.ogg"
-        files[f"voiceline.{id}.{voicekey}"] = f"{ASSET_LINK}/{target}"
+        files[f"voiceline.{id}.{voicekey}"] = (source, target)
 
         if source in untracked:
           link(source, target)
@@ -321,8 +320,35 @@ def voiceline(files: dict[str, str]) -> None:
 
 
 @runtime
+def verify(files: dict[str, tuple[str, str]]) -> dict[str, str]:
+  tracked, untracked = get_file_list(".", LINKER_TARGET)
+  file_list = tracked | untracked
+  missing: set[str] = set()
+
+  for source, target in files.values():
+    if target not in file_list:
+      missing.add(source)
+
+  if len(missing):
+    subprocess.run(["git", "sparse-checkout", "init", "--no-cone"], cwd=LINKER_SOURCE, check=True)
+    subprocess.run(
+      ["git", "sparse-checkout", "add", "--stdin"],
+      cwd=LINKER_SOURCE,
+      input="\n".join(missing),
+      check=True,
+      text=True,
+    )
+
+    for source, target in files.values():
+      link(source, target)
+
+  ASSET_LINK = LINK.rstrip("/")
+  return {k: f"{ASSET_LINK}/{v[1]}" for k, v in files.items()}
+
+
+@runtime
 def linker() -> None:
-  files: dict[str, str] = {}
+  files: dict[str, tuple[str, str]] = {}
 
   link_extract_to_source()
   background(files)
@@ -333,8 +359,10 @@ def linker() -> None:
   skill(files)
   voiceline(files)
 
+  result = verify(files)
+
   (Path(__file__).parent / "linker.json").write_text(
-    json.dumps(files, indent=2, ensure_ascii=False),
+    json.dumps(result, indent=2, ensure_ascii=False),
     encoding="utf-8",
   )
 
