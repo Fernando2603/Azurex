@@ -53,6 +53,8 @@ jobs:
 
       - name: Setup FFmpeg
         uses: AnimMouse/setup-ffmpeg@v1
+        with:
+          version: 8.1
 
       - name: Clone Fernando2603/AzurLane & Fernando2603/AzurAssets
         run: |
