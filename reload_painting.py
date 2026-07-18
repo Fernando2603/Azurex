@@ -27,7 +27,7 @@ async def download_one(
 
 async def download():
   path = Path("./ClientAssets/EN/hashes-painting.csv")
-  dst = Path("./ClientAssets/AssetBundles")
+  dst = Path("./ClientAssets/EN/AssetBundles")
 
   async with downloader.AzurlaneAsyncDownloader(
     cdn_url="https://blhxusstatic.yo-star.com",
