@@ -8,4 +8,4 @@ pydub==0.25.1
 pydub-stubs==0.25.1
 tinytag==1.10.1
 acb-py==1.2.4
-azurpaint==1.0.5
+azurpaint==1.0.6

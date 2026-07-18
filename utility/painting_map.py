@@ -45,7 +45,14 @@ ASSET_EXCEPTION = {
   "painting/970506_tex",
 }
 
-IGNORE_DEPENDENCIES = {"painting/mat_v1f1", "painting/mat", "custom_builtin"}
+IGNORE_DEPENDENCIES = {
+  "painting/mat_v1f1",
+  "painting/mat",
+  "custom_builtin",
+  "ui/commonui_atlas",
+  "shader",
+  "painting/touming_tex",
+}
 
 
 class MonoBehaviourValue(TypedDict):
@@ -178,7 +185,7 @@ class PaintingMap:
         if dependency not in keys:
           raise ValueError(f"dependencies m_Keys doesn't contain '{dependency}'")
 
-        if dependency in ("shader", "custom_builtin") or dependency.startswith("artresource"):
+        if (dependency in IGNORE_DEPENDENCIES) or dependency.startswith("artresource"):
           continue
 
         self.linker[dependency].add(name)
@@ -195,7 +202,7 @@ class PaintingMap:
       if name in res_to_deps:
         for res_list in res_to_deps[name]:
           for dependency in res_list:
-            if (dependency not in self.linker) or (dependency == "painting/touming_tex"):
+            if (dependency not in self.linker) or (dependency in IGNORE_DEPENDENCIES):
               continue
 
             prefab_list.update(self.linker[dependency])
@@ -228,6 +235,20 @@ class PaintingMap:
 
     obb_data = self.fetch_obb_data()
     self.obb = set(self.linker).intersection(obb_data.filemap)
+
+    # import json
+    # Path("painting_map.json").write_text(
+    #   json.dumps(
+    #     {
+    #       "dependent": self.dependent,
+    #       "linker": {k: list(v) for k, v in self.linker.items()},
+    #       "size": self.size,
+    #       "obb": list(self.obb),
+    #     },
+    #     indent=2,
+    #   ),
+    #   encoding="utf-8",
+    # )
 
   def check_dependency(self, filepath: str, filehash: str) -> bool:
     fullpath = Path(self.root, "AssetBundles", filepath)
@@ -299,4 +320,4 @@ class PaintingMap:
       raise ValueError(f"Received asset {hashrow.filepath} has wrong hash.")
 
     fullpath.parent.mkdir(parents=True, exist_ok=True)
-    fullpath.write_bytes(cast(bytes, response.content))
+    fullpath.write_bytes(response.content)

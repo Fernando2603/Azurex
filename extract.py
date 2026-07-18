@@ -1,6 +1,6 @@
 import itertools
 import multiprocessing
-from collections.abc import Generator
+from collections.abc import Iterator
 from pathlib import Path
 from typing import cast
 
@@ -23,7 +23,7 @@ UnityPy.config.FALLBACK_UNITY_VERSION = "2022.3.62f3"
 
 def load_images(
   filepath: str,
-) -> Generator[tuple[ObjectReader[Texture2D | Sprite], Texture2D | Sprite], None, None]:
+) -> Iterator[tuple[ObjectReader[Texture2D | Sprite], Texture2D | Sprite]]:
   am = AssetsManager(filepath)
   type = ClassIDType.Sprite if filepath in ("attricon", "shiptype") else ClassIDType.Texture2D
 
