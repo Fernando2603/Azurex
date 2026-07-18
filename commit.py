@@ -3,6 +3,7 @@ Since github have push size limit about 2gb, split commit by chunk is required
 this also solve the problem with os console character length on 'git add -- file'
 """
 
+import argparse
 import os
 import subprocess
 from collections.abc import Iterator
@@ -184,8 +185,15 @@ def get_version(client: Client) -> str:
   return versioncontroller.load_version_string(VersionType.AZL) or "update"
 
 
+def get_message() -> str:
+  parser = argparse.ArgumentParser()
+  parser.add_argument("--message", default=None)
+  args = parser.parse_args()
+  return args.message if args.message else get_version(Client.EN)
+
+
 if __name__ == "__main__":
-  message = get_version(Client.EN)
+  message = get_message()
 
   commit("AzurAssets", message)
   commit("AzurLane", message)
