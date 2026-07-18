@@ -4,6 +4,7 @@ from collections.abc import Generator
 from pathlib import Path
 from typing import cast
 
+import UnityPy.config
 from azlassets import config, extractor, versioncontrol
 from azlassets.classes import BundlePath, Client, SimpleVersionResult, VersionType
 from azurpaint import Azurpaint
@@ -16,6 +17,8 @@ from UnityPy.files import ObjectReader
 
 from utility.audio import extract_audio
 from utility.painting_map import PaintingMap
+
+UnityPy.config.FALLBACK_UNITY_VERSION = "2022.3.62f3"
 
 
 def load_images(
