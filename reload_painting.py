@@ -103,20 +103,23 @@ def extract(client: Client) -> None:
   filtered_bundles = filter(_filter, set(downloaded_files))
 
   for bundlepath in filtered_bundles:
-    dependencies: list[str] = []
-    painting_dependencies = painting_map.get_dependencies(bundlepath.inner)
+    try:
+      dependencies: list[str] = []
+      painting_dependencies = painting_map.get_dependencies(bundlepath.inner)
 
-    if bundlepath.inner in painting_dependencies:
-      dependencies = list(painting_dependencies[bundlepath.inner])
+      if bundlepath.inner in painting_dependencies:
+        dependencies = list(painting_dependencies[bundlepath.inner])
 
-    tasks_args.append(
-      (
-        Path(client_directory, "AssetBundles"),
-        bundlepath.inner,
-        extract_directory,
-        dependencies,
+      tasks_args.append(
+        (
+          Path(client_directory, "AssetBundles"),
+          bundlepath.inner,
+          extract_directory,
+          dependencies,
+        )
       )
-    )
+    except Exception:
+      pass
 
   with multiprocessing.Pool(processes=max(1, multiprocessing.cpu_count() - 1)) as pool:
     pool.starmap(extract_assetbundle, tasks_args)
