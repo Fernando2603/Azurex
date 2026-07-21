@@ -16,6 +16,7 @@ from UnityPy.enums import ClassIDType
 from UnityPy.files import ObjectReader
 
 from utility.audio import extract_audio
+from utility.emoji import Emoji
 from utility.painting_map import PaintingMap
 
 UnityPy.config.FALLBACK_UNITY_VERSION = "2022.3.62f3"
@@ -70,6 +71,10 @@ def extract_assetbundle(
       target = Path(target, filepath).with_suffix(".png")
 
       return try_save_image(painting, target)
+
+    if filepath.startswith("emoji/"):
+      emoji = Emoji(root, filepath)
+      return emoji.save(Path(target, filepath))
 
     path = Path(root, filepath)
     all_images: list[tuple[Image.Image, str]] = []

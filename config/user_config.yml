@@ -12,6 +12,7 @@ download-folder-list:
 - commanderskillicon
 - commandertalenticon
 - cue
+- emoji
 - enemies
 - equips
 - gallerypic
@@ -39,6 +40,7 @@ extract-folder-list:
 - commanderskillicon
 - commandertalenticon
 - cue
+- emoji
 - enemies
 - equips
 - gallerypic
