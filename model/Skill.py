@@ -7,6 +7,7 @@ class SkillType(IntEnum):
   offense = 1
   defense = 2
   support = 3
+  unknown = 4
 
 
 class Skill(BaseModel):
