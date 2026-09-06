@@ -43,6 +43,7 @@ ASSET_EXCEPTION = {
   "painting/970706_tex",
   "painting/970211_tex",
   "painting/970506_tex",
+  "painting/970710_tex",
 }
 
 IGNORE_DEPENDENCIES = {
