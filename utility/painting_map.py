@@ -276,6 +276,9 @@ class PaintingMap:
       dependencies[link] = set()
 
       for dependency, md5hash in self.dependent[link].items():
+        if dependency in ASSET_EXCEPTION:
+          continue
+
         if dependency in self.validated:
           dependencies[link].add(dependency)
           continue
