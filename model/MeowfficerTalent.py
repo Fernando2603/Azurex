@@ -6,7 +6,7 @@ from pydantic import BaseModel, TypeAdapter
 class MeowfficerTalentStats(BaseModel):
   apply: list[str]
   stats: str
-  value: int
+  value: int | float
   type: Literal["percentage", "value"]
 
 
