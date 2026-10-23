@@ -11,4 +11,4 @@ class CommanderAbilityTemplate(BaseModel):
   desc: str
   icon: str
   add: list[tuple[int, list[int], list[int], int, int]]
-  add_desc: list[tuple[str, int] | tuple[str, int, str]]
+  add_desc: list[tuple[str, int | float] | tuple[str, int | float, str]]
