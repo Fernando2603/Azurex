@@ -7,7 +7,7 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       version: ${{ steps.version.outputs.version }}
       update: ${{ steps.version.outputs.update }}
@@ -33,7 +33,7 @@ jobs:
           echo "update=${values[1]}" >> "$GITHUB_OUTPUT"
 
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: check
     if: ${{ needs.check.outputs.update == 'true' }}
     steps:
