@@ -1,3194 +1,3194 @@
 {
   "1": {
-    "id": 1,
-    "type": 1,
     "code": "Minekaze",
     "nation": 0,
-    "name": "Minekaze"
+    "name": "Minekaze",
+    "type": 1,
+    "id": 1
   },
   "2": {
-    "id": 2,
-    "type": 1,
     "code": "Fubuki",
     "nation": 0,
-    "name": "Fubuki"
+    "name": "Fubuki",
+    "type": 1,
+    "id": 2
   },
   "3": {
-    "id": 3,
-    "type": 1,
     "code": "Shirayuki",
     "nation": 0,
-    "name": "Shirayuki"
+    "name": "Shirayuki",
+    "type": 1,
+    "id": 3
   },
   "4": {
-    "id": 4,
-    "type": 1,
     "code": "Hatsuyuki",
     "nation": 0,
-    "name": "Hatsuyuki"
+    "name": "Hatsuyuki",
+    "type": 1,
+    "id": 4
   },
   "5": {
-    "id": 5,
-    "type": 1,
     "code": "Miyuki",
     "nation": 0,
-    "name": "Miyuki"
+    "name": "Miyuki",
+    "type": 1,
+    "id": 5
   },
   "6": {
-    "id": 6,
-    "type": 1,
     "code": "Ayanami",
     "nation": 0,
-    "name": "Ayanami"
+    "name": "Ayanami",
+    "type": 1,
+    "id": 6
   },
   "7": {
-    "id": 7,
-    "type": 1,
     "code": "Shikinami",
     "nation": 0,
-    "name": "Shikinami"
+    "name": "Shikinami",
+    "type": 1,
+    "id": 7
   },
   "8": {
-    "id": 8,
-    "type": 1,
     "code": "Akebono",
     "nation": 0,
-    "name": "Akebono"
+    "name": "Akebono",
+    "type": 1,
+    "id": 8
   },
   "9": {
-    "id": 9,
-    "type": 1,
     "code": "Sazanami",
     "nation": 0,
-    "name": "Sazanami"
+    "name": "Sazanami",
+    "type": 1,
+    "id": 9
   },
   "10": {
-    "id": 10,
-    "type": 1,
     "code": "Ushio",
     "nation": 0,
-    "name": "Ushio"
+    "name": "Ushio",
+    "type": 1,
+    "id": 10
   },
   "11": {
-    "id": 11,
-    "type": 1,
     "code": "Akatsuki",
     "nation": 0,
-    "name": "Akatsuki"
+    "name": "Akatsuki",
+    "type": 1,
+    "id": 11
   },
   "12": {
-    "id": 12,
-    "type": 1,
     "code": "Hibiki",
     "nation": 0,
-    "name": "Hibiki"
+    "name": "Hibiki",
+    "type": 1,
+    "id": 12
   },
   "13": {
-    "id": 13,
-    "type": 1,
     "code": "Ikazuchi",
     "nation": 0,
-    "name": "Ikazuchi"
+    "name": "Ikazuchi",
+    "type": 1,
+    "id": 13
   },
   "14": {
-    "id": 14,
-    "type": 1,
     "code": "Inazuma",
     "nation": 0,
-    "name": "Inazuma"
+    "name": "Inazuma",
+    "type": 1,
+    "id": 14
   },
   "15": {
-    "id": 15,
-    "type": 1,
     "code": "Shiratsuyu",
     "nation": 0,
-    "name": "Shiratsuyu"
+    "name": "Shiratsuyu",
+    "type": 1,
+    "id": 15
   },
   "16": {
-    "id": 16,
-    "type": 1,
     "code": "Yuudachi",
     "nation": 0,
-    "name": "Yuudachi"
+    "name": "Yuudachi",
+    "type": 1,
+    "id": 16
   },
   "17": {
-    "id": 17,
-    "type": 1,
     "code": "Shigure",
     "nation": 0,
-    "name": "Shigure"
+    "name": "Shigure",
+    "type": 1,
+    "id": 17
   },
   "18": {
-    "id": 18,
-    "type": 1,
     "code": "Shimakaze",
     "nation": 0,
-    "name": "Shimakaze"
+    "name": "Shimakaze",
+    "type": 1,
+    "id": 18
   },
   "19": {
-    "id": 19,
-    "type": 1,
     "code": "Kagerou",
     "nation": 0,
-    "name": "Kagerou"
+    "name": "Kagerou",
+    "type": 1,
+    "id": 19
   },
   "20": {
-    "id": 20,
-    "type": 1,
     "code": "Shiranui",
     "nation": 0,
-    "name": "Shiranui"
+    "name": "Shiranui",
+    "type": 1,
+    "id": 20
   },
   "21": {
-    "id": 21,
-    "type": 1,
     "code": "Kuroshio",
     "nation": 0,
-    "name": "Kuroshio"
+    "name": "Kuroshio",
+    "type": 1,
+    "id": 21
   },
   "22": {
-    "id": 22,
-    "type": 1,
     "code": "Yukikaze",
     "nation": 0,
-    "name": "Yukikaze"
+    "name": "Yukikaze",
+    "type": 1,
+    "id": 22
   },
   "23": {
-    "id": 23,
-    "type": 1,
     "code": "Amatsukaze",
     "nation": 0,
-    "name": "Amatsukaze"
+    "name": "Amatsukaze",
+    "type": 1,
+    "id": 23
   },
   "24": {
-    "id": 24,
-    "type": 1,
     "code": "Nowaki",
     "nation": 0,
-    "name": "Nowaki"
+    "name": "Nowaki",
+    "type": 1,
+    "id": 24
   },
   "25": {
-    "id": 25,
-    "type": 1,
     "code": "Arashi",
     "nation": 0,
-    "name": "Arashi"
+    "name": "Arashi",
+    "type": 1,
+    "id": 25
   },
   "26": {
-    "id": 26,
-    "type": 1,
     "code": "Akizuki",
     "nation": 0,
-    "name": "Akizuki"
+    "name": "Akizuki",
+    "type": 1,
+    "id": 26
   },
   "27": {
-    "id": 27,
-    "type": 1,
     "code": "Suzutsuki",
     "nation": 0,
-    "name": "Suzutsuki"
+    "name": "Suzutsuki",
+    "type": 1,
+    "id": 27
   },
   "28": {
-    "id": 28,
-    "type": 1,
     "code": "Yoizuki",
     "nation": 0,
-    "name": "Yoizuki"
+    "name": "Yoizuki",
+    "type": 1,
+    "id": 28
   },
   "29": {
-    "id": 29,
-    "type": 1,
     "code": "Hanazuki",
     "nation": 0,
-    "name": "Hanazuki"
+    "name": "Hanazuki",
+    "type": 1,
+    "id": 29
   },
   "30": {
-    "id": 30,
-    "type": 1,
     "code": "Hatsuharu",
     "nation": 0,
-    "name": "Hatsuharu"
+    "name": "Hatsuharu",
+    "type": 1,
+    "id": 30
   },
   "31": {
-    "id": 31,
-    "type": 1,
     "code": "Ariake",
     "nation": 0,
-    "name": "Ariake"
+    "name": "Ariake",
+    "type": 1,
+    "id": 31
   },
   "32": {
-    "id": 32,
-    "type": 1,
     "code": "Yuugure",
     "nation": 0,
-    "name": "Yuugure"
+    "name": "Yuugure",
+    "type": 1,
+    "id": 32
   },
   "33": {
-    "id": 33,
-    "type": 1,
     "code": "Mutsuki",
     "nation": 0,
-    "name": "Mutsuki"
+    "name": "Mutsuki",
+    "type": 1,
+    "id": 33
   },
   "34": {
-    "id": 34,
-    "type": 1,
     "code": "Kisaragi",
     "nation": 0,
-    "name": "Kisaragi"
+    "name": "Kisaragi",
+    "type": 1,
+    "id": 34
   },
   "35": {
-    "id": 35,
-    "type": 1,
     "code": "Yuugumo",
     "nation": 0,
-    "name": "Yuugumo"
+    "name": "Yuugumo",
+    "type": 1,
+    "id": 35
   },
   "36": {
-    "id": 36,
-    "type": 1,
     "code": "Makinami",
     "nation": 0,
-    "name": "Makinami"
+    "name": "Makinami",
+    "type": 1,
+    "id": 36
   },
   "37": {
-    "id": 37,
-    "type": 1,
     "code": "Yuubari",
     "nation": 0,
-    "name": "Yuubari"
+    "name": "Yuubari",
+    "type": 1,
+    "id": 37
   },
   "38": {
-    "id": 38,
-    "type": 1,
     "code": "Sendai",
     "nation": 0,
-    "name": "Sendai"
+    "name": "Sendai",
+    "type": 1,
+    "id": 38
   },
   "39": {
-    "id": 39,
-    "type": 1,
     "code": "Jintsuu",
     "nation": 0,
-    "name": "Jintsuu"
+    "name": "Jintsuu",
+    "type": 1,
+    "id": 39
   },
   "40": {
-    "id": 40,
-    "type": 1,
     "code": "Naka",
     "nation": 0,
-    "name": "Naka"
+    "name": "Naka",
+    "type": 1,
+    "id": 40
   },
   "41": {
-    "id": 41,
-    "type": 1,
     "code": "Tenryuu",
     "nation": 0,
-    "name": "Tenryuu"
+    "name": "Tenryuu",
+    "type": 1,
+    "id": 41
   },
   "42": {
-    "id": 42,
-    "type": 1,
     "code": "Tatsuta",
     "nation": 0,
-    "name": "Tatsuta"
+    "name": "Tatsuta",
+    "type": 1,
+    "id": 42
   },
   "43": {
-    "id": 43,
-    "type": 1,
     "code": "Kuma",
     "nation": 0,
-    "name": "Kuma"
+    "name": "Kuma",
+    "type": 1,
+    "id": 43
   },
   "44": {
-    "id": 44,
-    "type": 1,
     "code": "Kitakami",
     "nation": 0,
-    "name": "Kitakami"
+    "name": "Kitakami",
+    "type": 1,
+    "id": 44
   },
   "45": {
-    "id": 45,
-    "type": 1,
     "code": "Ooi",
     "nation": 0,
-    "name": "Ooi"
+    "name": "Ooi",
+    "type": 1,
+    "id": 45
   },
   "46": {
-    "id": 46,
-    "type": 1,
     "code": "Nagara",
     "nation": 0,
-    "name": "Nagara"
+    "name": "Nagara",
+    "type": 1,
+    "id": 46
   },
   "47": {
-    "id": 47,
-    "type": 1,
     "code": "Abukuma",
     "nation": 0,
-    "name": "Abukuma"
+    "name": "Abukuma",
+    "type": 1,
+    "id": 47
   },
   "48": {
-    "id": 48,
-    "type": 1,
     "code": "Isuzu",
     "nation": 0,
-    "name": "Isuzu"
+    "name": "Isuzu",
+    "type": 1,
+    "id": 48
   },
   "49": {
-    "id": 49,
-    "type": 1,
     "code": "Agano",
     "nation": 0,
-    "name": "Agano"
+    "name": "Agano",
+    "type": 1,
+    "id": 49
   },
   "50": {
-    "id": 50,
-    "type": 1,
     "code": "Noshiro",
     "nation": 0,
-    "name": "Noshiro"
+    "name": "Noshiro",
+    "type": 1,
+    "id": 50
   },
   "51": {
-    "id": 51,
-    "type": 1,
     "code": "Yahagi",
     "nation": 0,
-    "name": "Yahagi"
+    "name": "Yahagi",
+    "type": 1,
+    "id": 51
   },
   "52": {
-    "id": 52,
-    "type": 1,
     "code": "Ooyodo",
     "nation": 0,
-    "name": "Ooyodo"
+    "name": "Ooyodo",
+    "type": 1,
+    "id": 52
   },
   "53": {
-    "id": 53,
-    "type": 1,
     "code": "Furutaka",
     "nation": 0,
-    "name": "Furutaka"
+    "name": "Furutaka",
+    "type": 1,
+    "id": 53
   },
   "54": {
-    "id": 54,
-    "type": 1,
     "code": "Kako",
     "nation": 0,
-    "name": "Kako"
+    "name": "Kako",
+    "type": 1,
+    "id": 54
   },
   "55": {
-    "id": 55,
-    "type": 1,
     "code": "Aoba",
     "nation": 0,
-    "name": "Aoba"
+    "name": "Aoba",
+    "type": 1,
+    "id": 55
   },
   "56": {
-    "id": 56,
-    "type": 1,
     "code": "Kinugasa",
     "nation": 0,
-    "name": "Kinugasa"
+    "name": "Kinugasa",
+    "type": 1,
+    "id": 56
   },
   "57": {
-    "id": 57,
-    "type": 1,
     "code": "Mogami",
     "nation": 0,
-    "name": "Mogami"
+    "name": "Mogami",
+    "type": 1,
+    "id": 57
   },
   "58": {
-    "id": 58,
-    "type": 1,
     "code": "Mikuma",
     "nation": 0,
-    "name": "Mikuma"
+    "name": "Mikuma",
+    "type": 1,
+    "id": 58
   },
   "59": {
-    "id": 59,
-    "type": 1,
     "code": "Suzuya",
     "nation": 0,
-    "name": "Suzuya"
+    "name": "Suzuya",
+    "type": 1,
+    "id": 59
   },
   "60": {
-    "id": 60,
-    "type": 1,
     "code": "Kumano",
     "nation": 0,
-    "name": "Kumano"
+    "name": "Kumano",
+    "type": 1,
+    "id": 60
   },
   "61": {
-    "id": 61,
-    "type": 1,
     "code": "Tone",
     "nation": 0,
-    "name": "Tone"
+    "name": "Tone",
+    "type": 1,
+    "id": 61
   },
   "62": {
-    "id": 62,
-    "type": 1,
     "code": "Chikuma",
     "nation": 0,
-    "name": "Chikuma"
+    "name": "Chikuma",
+    "type": 1,
+    "id": 62
   },
   "63": {
-    "id": 63,
-    "type": 1,
     "code": "Myoukou",
     "nation": 0,
-    "name": "Myoukou"
+    "name": "Myoukou",
+    "type": 1,
+    "id": 63
   },
   "64": {
-    "id": 64,
-    "type": 1,
     "code": "Nachi",
     "nation": 0,
-    "name": "Nachi"
+    "name": "Nachi",
+    "type": 1,
+    "id": 64
   },
   "65": {
-    "id": 65,
-    "type": 1,
     "code": "Haguro",
     "nation": 0,
-    "name": "Haguro"
+    "name": "Haguro",
+    "type": 1,
+    "id": 65
   },
   "66": {
-    "id": 66,
-    "type": 1,
     "code": "Takao",
     "nation": 0,
-    "name": "Takao"
+    "name": "Takao",
+    "type": 1,
+    "id": 66
   },
   "67": {
-    "id": 67,
-    "type": 1,
     "code": "Atago",
     "nation": 0,
-    "name": "Atago"
+    "name": "Atago",
+    "type": 1,
+    "id": 67
   },
   "68": {
-    "id": 68,
-    "type": 1,
     "code": "Maya",
     "nation": 0,
-    "name": "Maya"
+    "name": "Maya",
+    "type": 1,
+    "id": 68
   },
   "69": {
-    "id": 69,
-    "type": 1,
     "code": "Choukai",
     "nation": 0,
-    "name": "Choukai"
+    "name": "Choukai",
+    "type": 1,
+    "id": 69
   },
   "70": {
-    "id": 70,
-    "type": 1,
     "code": "Kongou",
     "nation": 0,
-    "name": "Kongou"
+    "name": "Kongou",
+    "type": 1,
+    "id": 70
   },
   "71": {
-    "id": 71,
-    "type": 1,
     "code": "Hiei",
     "nation": 0,
-    "name": "Hiei"
+    "name": "Hiei",
+    "type": 1,
+    "id": 71
   },
   "72": {
-    "id": 72,
-    "type": 1,
     "code": "Haruna",
     "nation": 0,
-    "name": "Haruna"
+    "name": "Haruna",
+    "type": 1,
+    "id": 72
   },
   "73": {
-    "id": 73,
-    "type": 1,
     "code": "Kirishima",
     "nation": 0,
-    "name": "Kirishima"
+    "name": "Kirishima",
+    "type": 1,
+    "id": 73
   },
   "74": {
-    "id": 74,
-    "type": 1,
     "code": "Nagato",
     "nation": 0,
-    "name": "Nagato"
+    "name": "Nagato",
+    "type": 1,
+    "id": 74
   },
   "75": {
-    "id": 75,
-    "type": 1,
     "code": "Mutsu",
     "nation": 0,
-    "name": "Mutsu"
+    "name": "Mutsu",
+    "type": 1,
+    "id": 75
   },
   "76": {
-    "id": 76,
-    "type": 1,
     "code": "Ise",
     "nation": 0,
-    "name": "Ise"
+    "name": "Ise",
+    "type": 1,
+    "id": 76
   },
   "77": {
-    "id": 77,
-    "type": 1,
     "code": "Hyuuga",
     "nation": 0,
-    "name": "Hyuuga"
+    "name": "Hyuuga",
+    "type": 1,
+    "id": 77
   },
   "78": {
-    "id": 78,
-    "type": 1,
     "code": "Fusou",
     "nation": 0,
-    "name": "Fusou"
+    "name": "Fusou",
+    "type": 1,
+    "id": 78
   },
   "79": {
-    "id": 79,
-    "type": 1,
     "code": "Yamashiro",
     "nation": 0,
-    "name": "Yamashiro"
+    "name": "Yamashiro",
+    "type": 1,
+    "id": 79
   },
   "80": {
-    "id": 80,
-    "type": 1,
     "code": "Kii",
     "nation": 0,
-    "name": "Kii"
+    "name": "Kii",
+    "type": 1,
+    "id": 80
   },
   "81": {
-    "id": 81,
-    "type": 1,
     "code": "Tosa",
     "nation": 0,
-    "name": "Tosa"
+    "name": "Tosa",
+    "type": 1,
+    "id": 81
   },
   "82": {
-    "id": 82,
-    "type": 1,
     "code": "Mikasa",
     "nation": 0,
-    "name": "Mikasa"
+    "name": "Mikasa",
+    "type": 1,
+    "id": 82
   },
   "83": {
-    "id": 83,
-    "type": 1,
     "code": "Yamato",
     "nation": 0,
-    "name": "Yamato"
+    "name": "Yamato",
+    "type": 1,
+    "id": 83
   },
   "84": {
-    "id": 84,
-    "type": 1,
     "code": "Musashi",
     "nation": 0,
-    "name": "Musashi"
+    "name": "Musashi",
+    "type": 1,
+    "id": 84
   },
   "85": {
-    "id": 85,
-    "type": 1,
     "code": "Hiyou",
     "nation": 0,
-    "name": "Hiyou"
+    "name": "Hiyou",
+    "type": 1,
+    "id": 85
   },
   "86": {
-    "id": 86,
-    "type": 1,
     "code": "Junyou",
     "nation": 0,
-    "name": "Junyou"
+    "name": "Junyou",
+    "type": 1,
+    "id": 86
   },
   "87": {
-    "id": 87,
-    "type": 1,
     "code": "Shouhou",
     "nation": 0,
-    "name": "Shouhou"
+    "name": "Shouhou",
+    "type": 1,
+    "id": 87
   },
   "88": {
-    "id": 88,
-    "type": 1,
     "code": "Zuihou",
     "nation": 0,
-    "name": "Zuihou"
+    "name": "Zuihou",
+    "type": 1,
+    "id": 88
   },
   "89": {
-    "id": 89,
-    "type": 1,
     "code": "Houshou",
     "nation": 0,
-    "name": "Houshou"
+    "name": "Houshou",
+    "type": 1,
+    "id": 89
   },
   "90": {
-    "id": 90,
-    "type": 1,
     "code": "Ryuujou",
     "nation": 0,
-    "name": "Ryuujou"
+    "name": "Ryuujou",
+    "type": 1,
+    "id": 90
   },
   "91": {
-    "id": 91,
-    "type": 1,
     "code": "Akagi",
     "nation": 0,
-    "name": "Akagi"
+    "name": "Akagi",
+    "type": 1,
+    "id": 91
   },
   "92": {
-    "id": 92,
-    "type": 1,
     "code": "Kaga",
     "nation": 0,
-    "name": "Kaga"
+    "name": "Kaga",
+    "type": 1,
+    "id": 92
   },
   "93": {
-    "id": 93,
-    "type": 1,
     "code": "Souryuu",
     "nation": 0,
-    "name": "Souryuu"
+    "name": "Souryuu",
+    "type": 1,
+    "id": 93
   },
   "94": {
-    "id": 94,
-    "type": 1,
     "code": "Hiryuu",
     "nation": 0,
-    "name": "Hiryuu"
+    "name": "Hiryuu",
+    "type": 1,
+    "id": 94
   },
   "95": {
-    "id": 95,
-    "type": 1,
     "code": "Shoukaku",
     "nation": 0,
-    "name": "Shoukaku"
+    "name": "Shoukaku",
+    "type": 1,
+    "id": 95
   },
   "96": {
-    "id": 96,
-    "type": 1,
     "code": "Zuikaku",
     "nation": 0,
-    "name": "Zuikaku"
+    "name": "Zuikaku",
+    "type": 1,
+    "id": 96
   },
   "97": {
-    "id": 97,
-    "type": 1,
     "code": "Taihou",
     "nation": 0,
-    "name": "Taihou"
+    "name": "Taihou",
+    "type": 1,
+    "id": 97
   },
   "98": {
-    "id": 98,
-    "type": 1,
     "code": "Akashi",
     "nation": 0,
-    "name": "Akashi"
+    "name": "Akashi",
+    "type": 1,
+    "id": 98
   },
   "99": {
-    "id": 99,
-    "type": 1,
     "code": "IJN",
     "nation": 0,
-    "name": "IJN"
+    "name": "IJN",
+    "type": 1,
+    "id": 99
   },
   "100": {
-    "id": 100,
-    "type": 1,
     "code": "First Carrier Division",
     "nation": 0,
-    "name": "First Carrier Division"
+    "name": "First Carrier Division",
+    "type": 1,
+    "id": 100
   },
   "101": {
-    "id": 101,
-    "type": 1,
     "code": "Second Carrier Division",
     "nation": 0,
-    "name": "Second Carrier Division"
+    "name": "Second Carrier Division",
+    "type": 1,
+    "id": 101
   },
   "102": {
-    "id": 102,
-    "type": 1,
     "code": "Fifth Carrier Division",
     "nation": 0,
-    "name": "Fifth Carrier Division"
+    "name": "Fifth Carrier Division",
+    "type": 1,
+    "id": 102
   },
   "103": {
-    "id": 103,
-    "type": 1,
     "code": "Chitose",
     "nation": 0,
-    "name": "Chitose"
+    "name": "Chitose",
+    "type": 1,
+    "id": 103
   },
   "104": {
-    "id": 104,
-    "type": 1,
     "code": "Chiyoda",
     "nation": 0,
-    "name": "Chiyoda"
+    "name": "Chiyoda",
+    "type": 1,
+    "id": 104
   },
   "105": {
-    "id": 105,
-    "type": 1,
     "code": "Fubuki Production",
     "nation": 0,
-    "name": "Fubuki Production"
+    "name": "Fubuki Production",
+    "type": 1,
+    "id": 105
   },
   "106": {
-    "id": 106,
-    "type": 1,
     "code": "Shiratsuyu Production",
     "nation": 0,
-    "name": "Shiratsuyu Production"
+    "name": "Shiratsuyu Production",
+    "type": 1,
+    "id": 106
   },
   "107": {
-    "id": 107,
-    "type": 1,
     "code": "Kagerou Production",
     "nation": 0,
-    "name": "Kagerou Production"
+    "name": "Kagerou Production",
+    "type": 1,
+    "id": 107
   },
   "108": {
-    "id": 108,
-    "type": 1,
     "code": "Yuugumo Production",
     "nation": 0,
-    "name": "Yuugumo Production"
+    "name": "Yuugumo Production",
+    "type": 1,
+    "id": 108
   },
   "109": {
-    "id": 109,
-    "type": 1,
     "code": "Mutsuki Production",
     "nation": 0,
-    "name": "Mutsuki Production"
+    "name": "Mutsuki Production",
+    "type": 1,
+    "id": 109
   },
   "110": {
-    "id": 110,
-    "type": 1,
     "code": "Nagara Production",
     "nation": 0,
-    "name": "Nagara Production"
+    "name": "Nagara Production",
+    "type": 1,
+    "id": 110
   },
   "111": {
-    "id": 111,
-    "type": 1,
     "code": "Sendai Production",
     "nation": 0,
-    "name": "Sendai Production"
+    "name": "Sendai Production",
+    "type": 1,
+    "id": 111
   },
   "112": {
-    "id": 112,
-    "type": 1,
     "code": "Isuzu Production",
     "nation": 0,
-    "name": "Isuzu Production"
+    "name": "Isuzu Production",
+    "type": 1,
+    "id": 112
   },
   "113": {
-    "id": 113,
-    "type": 1,
     "code": "Furutaka Production",
     "nation": 0,
-    "name": "Furutaka Production"
+    "name": "Furutaka Production",
+    "type": 1,
+    "id": 113
   },
   "114": {
-    "id": 114,
-    "type": 1,
     "code": "Aoba Production",
     "nation": 0,
-    "name": "Aoba Production"
+    "name": "Aoba Production",
+    "type": 1,
+    "id": 114
   },
   "115": {
-    "id": 115,
-    "type": 1,
     "code": "Myoukou Production",
     "nation": 0,
-    "name": "Myoukou Production"
+    "name": "Myoukou Production",
+    "type": 1,
+    "id": 115
   },
   "116": {
-    "id": 116,
-    "type": 1,
     "code": "Takao Production",
     "nation": 0,
-    "name": "Takao Production"
+    "name": "Takao Production",
+    "type": 1,
+    "id": 116
   },
   "117": {
-    "id": 117,
-    "type": 1,
     "code": "Mogami Production",
     "nation": 0,
-    "name": "Mogami Production"
+    "name": "Mogami Production",
+    "type": 1,
+    "id": 117
   },
   "118": {
-    "id": 118,
-    "type": 1,
     "code": "Battleship Hiei",
     "nation": 0,
-    "name": "Battleship Hiei"
+    "name": "Battleship Hiei",
+    "type": 1,
+    "id": 118
   },
   "119": {
-    "id": 119,
-    "type": 1,
     "code": "Battleship Kirishima",
     "nation": 0,
-    "name": "Battleship Kirishima"
+    "name": "Battleship Kirishima",
+    "type": 1,
+    "id": 119
   },
   "120": {
-    "id": 120,
-    "type": 1,
     "code": "Carrier Akagi",
     "nation": 0,
-    "name": "Carrier Akagi"
+    "name": "Carrier Akagi",
+    "type": 1,
+    "id": 120
   },
   "121": {
-    "id": 121,
-    "type": 1,
     "code": "Carrier Kaga",
     "nation": 0,
-    "name": "Carrier Kaga"
+    "name": "Carrier Kaga",
+    "type": 1,
+    "id": 121
   },
   "122": {
-    "id": 122,
-    "type": 1,
     "code": "Hatsukaze",
     "nation": 0,
-    "name": "Hatsukaze"
+    "name": "Hatsukaze",
+    "type": 1,
+    "id": 122
   },
   "123": {
-    "id": 123,
-    "type": 1,
     "code": "Kuma Production",
     "nation": 0,
-    "name": "Kuma Production"
+    "name": "Kuma Production",
+    "type": 1,
+    "id": 123
   },
   "124": {
-    "id": 124,
-    "type": 1,
     "code": "Kamikaze",
     "nation": 0,
-    "name": "Kamikaze"
+    "name": "Kamikaze",
+    "type": 1,
+    "id": 124
   },
   "125": {
-    "id": 125,
-    "type": 1,
     "code": "Niizuki",
     "nation": 3,
-    "name": "Niizuki"
+    "name": "Niizuki",
+    "type": 1,
+    "id": 125
   },
   "126": {
-    "id": 126,
-    "type": 1,
     "code": "Mikazuki",
     "nation": 0,
-    "name": "Mikazuki"
+    "name": "Mikazuki",
+    "type": 1,
+    "id": 126
   },
   "127": {
-    "id": 127,
-    "type": 1,
     "code": "Tanikaze",
     "nation": 0,
-    "name": "Tanikaze"
+    "name": "Tanikaze",
+    "type": 1,
+    "id": 127
   },
   "128": {
-    "id": 128,
-    "type": 1,
     "code": "Hamakaze",
     "nation": 0,
-    "name": "Hamakaze"
+    "name": "Hamakaze",
+    "type": 1,
+    "id": 128
   },
   "129": {
-    "id": 129,
-    "type": 1,
     "code": "Hatsushimo",
     "nation": 0,
-    "name": "Hatsushimo"
+    "name": "Hatsushimo",
+    "type": 1,
+    "id": 129
   },
   "130": {
-    "id": 130,
-    "type": 1,
     "code": "Maikaze",
     "nation": 0,
-    "name": "Maikaze"
+    "name": "Maikaze",
+    "type": 1,
+    "id": 130
   },
   "131": {
-    "id": 131,
-    "type": 1,
     "code": "Hagikaze",
     "nation": 0,
-    "name": "Hagikaze"
+    "name": "Hagikaze",
+    "type": 1,
+    "id": 131
   },
   "132": {
-    "id": 132,
-    "type": 1,
     "code": "Yamashiro (Retrofit)",
     "nation": 0,
-    "name": "Yamashiro (Retrofit)"
+    "name": "Yamashiro (Retrofit)",
+    "type": 1,
+    "id": 132
   },
   "133": {
-    "id": 133,
-    "type": 1,
     "code": "Minazuki",
     "nation": 0,
-    "name": "Minazuki"
+    "name": "Minazuki",
+    "type": 1,
+    "id": 133
   },
   "134": {
-    "id": 134,
-    "type": 1,
     "code": "Matsukaze",
     "nation": 0,
-    "name": "Matsukaze"
+    "name": "Matsukaze",
+    "type": 1,
+    "id": 134
   },
   "135": {
-    "id": 135,
-    "type": 1,
     "code": "Oyashio",
     "nation": 0,
-    "name": "Oyashio"
+    "name": "Oyashio",
+    "type": 1,
+    "id": 135
   },
   "136": {
-    "id": 136,
-    "type": 1,
     "code": "Shikishima",
     "nation": 0,
-    "name": "Shikishima"
+    "name": "Shikishima",
+    "type": 1,
+    "id": 136
   },
   "137": {
-    "id": 137,
-    "type": 1,
     "code": "Uzuki",
     "nation": 0,
-    "name": "Uzuki"
+    "name": "Uzuki",
+    "type": 1,
+    "id": 137
   },
   "138": {
-    "id": 138,
-    "type": 1,
     "code": "Asakaze",
     "nation": 0,
-    "name": "Asakaze"
+    "name": "Asakaze",
+    "type": 1,
+    "id": 138
   },
   "139": {
-    "id": 139,
-    "type": 1,
     "code": "Harukaze",
     "nation": 0,
-    "name": "Harukaze"
+    "name": "Harukaze",
+    "type": 1,
+    "id": 139
   },
   "140": {
-    "id": 140,
-    "type": 1,
     "code": "Hatakaze",
     "nation": 0,
-    "name": "Hatakaze"
+    "name": "Hatakaze",
+    "type": 1,
+    "id": 140
   },
   "141": {
-    "id": 141,
-    "type": 1,
     "code": "Wakaba",
     "nation": 0,
-    "name": "Wakaba"
+    "name": "Wakaba",
+    "type": 1,
+    "id": 141
   },
   "142": {
-    "id": 142,
-    "type": 1,
     "code": "Urakaze",
     "nation": 0,
-    "name": "Urakaze"
+    "name": "Urakaze",
+    "type": 1,
+    "id": 142
   },
   "143": {
-    "id": 143,
-    "type": 1,
     "code": "Isokaze",
     "nation": 0,
-    "name": "Isokaze"
+    "name": "Isokaze",
+    "type": 1,
+    "id": 143
   },
   "144": {
-    "id": 144,
-    "type": 1,
     "code": "Ashigara",
     "nation": 0,
-    "name": "Ashigara"
+    "name": "Ashigara",
+    "type": 1,
+    "id": 144
   },
   "145": {
-    "id": 145,
-    "type": 1,
     "code": "Asashio",
     "nation": 0,
-    "name": "Asashio"
+    "name": "Asashio",
+    "type": 1,
+    "id": 145
   },
   "146": {
-    "id": 146,
-    "type": 1,
     "code": "Ooshio",
     "nation": 0,
-    "name": "Ooshio"
+    "name": "Ooshio",
+    "type": 1,
+    "id": 146
   },
   "147": {
-    "id": 147,
-    "type": 1,
     "code": "Michishio",
     "nation": 0,
-    "name": "Michishio"
+    "name": "Michishio",
+    "type": 1,
+    "id": 147
   },
   "148": {
-    "id": 148,
-    "type": 1,
     "code": "Arashio",
     "nation": 0,
-    "name": "Arashio"
+    "name": "Arashio",
+    "type": 1,
+    "id": 148
   },
   "149": {
-    "id": 149,
-    "type": 1,
     "code": "Suzukaze",
     "nation": 0,
-    "name": "Suzukaze"
+    "name": "Suzukaze",
+    "type": 1,
+    "id": 149
   },
   "150": {
-    "id": 150,
-    "type": 1,
     "code": "Umikaze",
     "nation": 0,
-    "name": "Umikaze"
+    "name": "Umikaze",
+    "type": 1,
+    "id": 150
   },
   "151": {
-    "id": 151,
-    "type": 1,
     "code": "Izumo",
     "nation": 0,
-    "name": "Izumo"
+    "name": "Izumo",
+    "type": 1,
+    "id": 151
   },
   "152": {
-    "id": 152,
-    "type": 1,
     "code": "Ibuki",
     "nation": 0,
-    "name": "Ibuki"
+    "name": "Ibuki",
+    "type": 1,
+    "id": 152
   },
   "153": {
-    "id": 153,
-    "type": 1,
     "code": "Yuunagi",
     "nation": 0,
-    "name": "Yuunagi"
+    "name": "Yuunagi",
+    "type": 1,
+    "id": 153
   },
   "154": {
-    "id": 154,
-    "type": 1,
     "code": "I-19",
     "nation": 0,
-    "name": "I-19"
+    "name": "I-19",
+    "type": 1,
+    "id": 154
   },
   "155": {
-    "id": 155,
-    "type": 1,
     "code": "I-26",
     "nation": 0,
-    "name": "I-26"
+    "name": "I-26",
+    "type": 1,
+    "id": 155
   },
   "156": {
-    "id": 156,
-    "type": 1,
     "code": "I-58",
     "nation": 0,
-    "name": "I-58"
+    "name": "I-58",
+    "type": 1,
+    "id": 156
   },
   "157": {
-    "id": 157,
-    "type": 1,
     "code": "Harutsuki",
     "nation": 0,
-    "name": "Harutsuki"
+    "name": "Harutsuki",
+    "type": 1,
+    "id": 157
   },
   "158": {
-    "id": 158,
-    "type": 1,
     "code": "Kawakaze",
     "nation": 0,
-    "name": "Kawakaze"
+    "name": "Kawakaze",
+    "type": 1,
+    "id": 158
   },
   "159": {
-    "id": 159,
-    "type": 1,
     "code": "Fumizuki",
     "nation": 0,
-    "name": "Fumizuki"
+    "name": "Fumizuki",
+    "type": 1,
+    "id": 159
   },
   "160": {
-    "id": 160,
-    "type": 1,
     "code": "Nagatsuki",
     "nation": 0,
-    "name": "Nagatsuki"
+    "name": "Nagatsuki",
+    "type": 1,
+    "id": 160
   },
   "161": {
-    "id": 161,
-    "type": 1,
     "code": "Amagi",
     "nation": 0,
-    "name": "Amagi"
+    "name": "Amagi",
+    "type": 1,
+    "id": 161
   },
   "162": {
-    "id": 162,
-    "type": 1,
     "code": "Makinami",
     "nation": 0,
-    "name": "Makinami"
+    "name": "Makinami",
+    "type": 1,
+    "id": 162
   },
   "163": {
-    "id": 163,
-    "type": 1,
     "code": "I-13",
     "nation": 0,
-    "name": "I-13"
+    "name": "I-13",
+    "type": 1,
+    "id": 163
   },
   "164": {
-    "id": 164,
-    "type": 1,
     "code": "Kitakaze",
     "nation": 0,
-    "name": "Kitakaze"
+    "name": "Kitakaze",
+    "type": 1,
+    "id": 164
   },
   "165": {
-    "id": 165,
-    "type": 1,
     "code": "Azuma",
     "nation": 0,
-    "name": "Azuma"
+    "name": "Azuma",
+    "type": 1,
+    "id": 165
   },
   "166": {
-    "id": 166,
-    "type": 1,
     "code": "Type II Ayanami",
     "nation": 0,
-    "name": "Type II Ayanami"
+    "name": "Type II Ayanami",
+    "type": 1,
+    "id": 166
   },
   "167": {
-    "id": 167,
-    "type": 1,
     "code": "Type I Fubuki",
     "nation": 0,
-    "name": "Type I Fubuki"
+    "name": "Type I Fubuki",
+    "type": 1,
+    "id": 167
   },
   "168": {
-    "id": 168,
-    "type": 1,
     "code": "Type III Akatsuki",
     "nation": 0,
-    "name": "Type III Akatsuki"
+    "name": "Type III Akatsuki",
+    "type": 1,
+    "id": 168
   },
   "169": {
-    "id": 169,
-    "type": 1,
     "code": "Hiei-chan",
     "nation": 0,
-    "name": "Hiei-chan"
+    "name": "Hiei-chan",
+    "type": 1,
+    "id": 169
   },
   "170": {
-    "id": 170,
-    "type": 1,
     "code": "Akagi-chan",
     "nation": 0,
-    "name": "Akagi-chan"
+    "name": "Akagi-chan",
+    "type": 1,
+    "id": 170
   },
   "171": {
-    "id": 171,
-    "type": 1,
     "code": "AI-Type Kagerou Production",
     "nation": 0,
-    "name": "AI-Type Kagerou Production"
+    "name": "AI-Type Kagerou Production",
+    "type": 1,
+    "id": 171
   },
   "172": {
-    "id": 172,
-    "type": 1,
     "code": "AI-Type Myoukou Production",
     "nation": 0,
-    "name": "AI-Type Myoukou Production"
+    "name": "AI-Type Myoukou Production",
+    "type": 1,
+    "id": 172
   },
   "173": {
-    "id": 173,
-    "type": 1,
     "code": "AI-Type Fusou Production",
     "nation": 0,
-    "name": "AI-Type Fusou Production"
+    "name": "AI-Type Fusou Production",
+    "type": 1,
+    "id": 173
   },
   "174": {
-    "id": 174,
-    "type": 1,
     "code": "Kiyonami",
     "nation": 0,
-    "name": "Kiyonami"
+    "name": "Kiyonami",
+    "type": 1,
+    "id": 174
   },
   "175": {
-    "id": 175,
-    "type": 1,
     "code": "Suruga",
     "nation": 0,
-    "name": "Suruga"
+    "name": "Suruga",
+    "type": 1,
+    "id": 175
   },
   "176": {
-    "id": 176,
-    "type": 1,
     "code": "Akagi μ",
     "nation": 0,
-    "name": "Akagi μ"
+    "name": "Akagi μ",
+    "type": 1,
+    "id": 176
   },
   "177": {
-    "id": 177,
-    "type": 1,
     "code": "Ise Production",
     "nation": 0,
-    "name": "Ise Production"
+    "name": "Ise Production",
+    "type": 1,
+    "id": 177
   },
   "178": {
-    "id": 178,
-    "type": 1,
     "code": "Fusou Production",
     "nation": 0,
-    "name": "Fusou Production"
+    "name": "Fusou Production",
+    "type": 1,
+    "id": 178
   },
   "179": {
-    "id": 179,
-    "type": 1,
     "code": "Ryuuhou",
     "nation": 0,
-    "name": "Ryuuhou"
+    "name": "Ryuuhou",
+    "type": 1,
+    "id": 179
   },
   "180": {
-    "id": 180,
-    "type": 1,
     "code": "Kasumi",
     "nation": 0,
-    "name": "Kasumi"
+    "name": "Kasumi",
+    "type": 1,
+    "id": 180
   },
   "181": {
-    "id": 181,
-    "type": 1,
     "code": "Kinu",
     "nation": 0,
-    "name": "Kinu"
+    "name": "Kinu",
+    "type": 1,
+    "id": 181
   },
   "182": {
-    "id": 182,
-    "type": 1,
     "code": "Shinano",
     "nation": 0,
-    "name": "Shinano"
+    "name": "Shinano",
+    "type": 1,
+    "id": 182
   },
   "183": {
-    "id": 183,
-    "type": 1,
     "code": "Taigei",
     "nation": 0,
-    "name": "Taigei"
+    "name": "Taigei",
+    "type": 1,
+    "id": 183
   },
   "184": {
-    "id": 184,
-    "type": 1,
     "code": "Uranami",
     "nation": 0,
-    "name": "Uranami"
+    "name": "Uranami",
+    "type": 1,
+    "id": 184
   },
   "185": {
-    "id": 185,
-    "type": 1,
     "code": "Naganami",
     "nation": 0,
-    "name": "Naganami"
+    "name": "Naganami",
+    "type": 1,
+    "id": 185
   },
   "186": {
-    "id": 186,
-    "type": 1,
     "code": "Fuyutsuki",
     "nation": 0,
-    "name": "Fuyutsuki"
+    "name": "Fuyutsuki",
+    "type": 1,
+    "id": 186
   },
   "187": {
-    "id": 187,
-    "type": 1,
     "code": "Michitsuki",
     "nation": 0,
-    "name": "Michitsuki"
+    "name": "Michitsuki",
+    "type": 1,
+    "id": 187
   },
   "188": {
-    "id": 188,
-    "type": 1,
     "code": "Kashino",
     "nation": 0,
-    "name": "Kashino"
+    "name": "Kashino",
+    "type": 1,
+    "id": 188
   },
   "189": {
-    "id": 189,
-    "type": 1,
     "code": "Hatsuzuki",
     "nation": 0,
-    "name": "Hatsuzuki"
+    "name": "Hatsuzuki",
+    "type": 1,
+    "id": 189
   },
   "190": {
-    "id": 190,
-    "type": 1,
     "code": "Taihou μ",
     "nation": 0,
-    "name": "Taihou μ"
+    "name": "Taihou μ",
+    "type": 1,
+    "id": 190
   },
   "191": {
-    "id": 191,
-    "type": 1,
     "code": "Hiryuu META",
     "nation": 0,
-    "name": "Hiryuu META"
+    "name": "Hiryuu META",
+    "type": 1,
+    "id": 191
   },
   "192": {
-    "id": 192,
-    "type": 1,
     "code": "Oite",
     "nation": 0,
-    "name": "Oite"
+    "name": "Oite",
+    "type": 1,
+    "id": 192
   },
   "193": {
-    "id": 193,
-    "type": 1,
     "code": "Amagi-chan",
     "nation": 0,
-    "name": "Amagi-chan"
+    "name": "Amagi-chan",
+    "type": 1,
+    "id": 193
   },
   "194": {
-    "id": 194,
-    "type": 1,
     "code": "Ticonderoga",
     "nation": 0,
-    "name": "Ticonderoga"
+    "name": "Ticonderoga",
+    "type": 1,
+    "id": 194
   },
   "195": {
-    "id": 195,
-    "type": 1,
     "code": "San Francisco",
     "nation": 0,
-    "name": "San Francisco"
+    "name": "San Francisco",
+    "type": 1,
+    "id": 195
   },
   "196": {
-    "id": 196,
-    "type": 1,
     "code": "Archerfish",
     "nation": 0,
-    "name": "Archerfish"
+    "name": "Archerfish",
+    "type": 1,
+    "id": 196
   },
   "197": {
-    "id": 197,
-    "type": 1,
     "code": "Boise",
     "nation": 0,
-    "name": "Boise"
+    "name": "Boise",
+    "type": 1,
+    "id": 197
   },
   "198": {
-    "id": 198,
-    "type": 1,
     "code": "Morrison",
     "nation": 0,
-    "name": "Morrison"
+    "name": "Morrison",
+    "type": 1,
+    "id": 198
   },
   "199": {
-    "id": 199,
-    "type": 1,
     "code": "New Jersey",
     "nation": 0,
-    "name": "New Jersey"
+    "name": "New Jersey",
+    "type": 1,
+    "id": 199
   },
   "200": {
-    "id": 200,
-    "type": 1,
     "code": "Ticonderoga",
     "nation": 0,
-    "name": "Ticonderoga"
+    "name": "Ticonderoga",
+    "type": 1,
+    "id": 200
   },
   "201": {
-    "id": 201,
-    "type": 1,
     "code": "Iowa",
     "nation": 0,
-    "name": "Iowa"
+    "name": "Iowa",
+    "type": 1,
+    "id": 201
   },
   "202": {
-    "id": 202,
-    "type": 1,
     "code": "Balao",
     "nation": 0,
-    "name": "Balao"
+    "name": "Balao",
+    "type": 1,
+    "id": 202
   },
   "203": {
-    "id": 203,
-    "type": 1,
     "code": "Kazagumo",
     "nation": 0,
-    "name": "Kazagumo"
+    "name": "Kazagumo",
+    "type": 1,
+    "id": 203
   },
   "204": {
-    "id": 204,
-    "type": 1,
     "code": "Hakuryuu",
     "nation": 0,
-    "name": "Hakuryuu"
+    "name": "Hakuryuu",
+    "type": 1,
+    "id": 204
   },
   "205": {
-    "id": 205,
-    "type": 1,
     "code": "Souryuu Meta",
     "nation": 0,
-    "name": "Souryuu Meta"
+    "name": "Souryuu Meta",
+    "type": 1,
+    "id": 205
   },
   "206": {
-    "id": 206,
-    "type": 1,
     "code": "Yura",
     "nation": 0,
-    "name": "Yura"
+    "name": "Yura",
+    "type": 1,
+    "id": 206
   },
   "207": {
-    "id": 207,
-    "type": 1,
     "code": "Yamakaze",
     "nation": 0,
-    "name": "Yamakaze"
+    "name": "Yamakaze",
+    "type": 1,
+    "id": 207
   },
   "208": {
-    "id": 208,
-    "type": 1,
     "code": "Katsuragi",
     "nation": 0,
-    "name": "Katsuragi"
+    "name": "Katsuragi",
+    "type": 1,
+    "id": 208
   },
   "209": {
-    "id": 209,
-    "type": 1,
     "code": "Unryuu",
     "nation": 0,
-    "name": "Unryuu"
+    "name": "Unryuu",
+    "type": 1,
+    "id": 209
   },
   "210": {
-    "id": 210,
-    "type": 1,
     "code": "Fusou META",
     "nation": 0,
-    "name": "Fusou META"
+    "name": "Fusou META",
+    "type": 1,
+    "id": 210
   },
   "211": {
-    "id": 211,
-    "type": 1,
     "code": "Fusou (Retrofit)",
     "nation": 0,
-    "name": "Fusou (Retrofit)"
+    "name": "Fusou (Retrofit)",
+    "type": 1,
+    "id": 211
   },
   "212": {
-    "id": 212,
-    "type": 1,
     "code": "Mogami (Retrofit)",
     "nation": 0,
-    "name": "Mogami (Retrofit)"
+    "name": "Mogami (Retrofit)",
+    "type": 1,
+    "id": 212
   },
   "213": {
-    "id": 213,
-    "type": 1,
     "code": "Yuudachi (Retrofit)",
     "nation": 0,
-    "name": "Yuudachi (Retrofit)"
+    "name": "Yuudachi (Retrofit)",
+    "type": 1,
+    "id": 213
   },
   "214": {
-    "id": 214,
-    "type": 1,
     "code": "Mogami (Retrofit)",
     "nation": 0,
-    "name": "Mogami (Retrofit)"
+    "name": "Mogami (Retrofit)",
+    "type": 1,
+    "id": 214
   },
   "215": {
-    "id": 215,
-    "type": 1,
     "code": "Fusou (Retrofit)",
     "nation": 0,
-    "name": "Fusou (Retrofit)"
+    "name": "Fusou (Retrofit)",
+    "type": 1,
+    "id": 215
   },
   "216": {
-    "id": 216,
-    "type": 1,
     "code": "Yamashiro (Retrofit)",
     "nation": 0,
-    "name": "Yamashiro (Retrofit)"
+    "name": "Yamashiro (Retrofit)",
+    "type": 1,
+    "id": 216
   },
   "217": {
-    "id": 217,
-    "type": 1,
     "code": "Ise (Retrofit)",
     "nation": 0,
-    "name": "Ise (Retrofit)"
+    "name": "Ise (Retrofit)",
+    "type": 1,
+    "id": 217
   },
   "218": {
-    "id": 218,
-    "type": 1,
     "code": "Hyuuga (Retrofit)",
     "nation": 0,
-    "name": "Hyuuga (Retrofit)"
+    "name": "Hyuuga (Retrofit)",
+    "type": 1,
+    "id": 218
   },
   "219": {
-    "id": 219,
-    "type": 1,
     "code": "Kasumi (Retrofit)",
     "nation": 0,
-    "name": "Kasumi (Retrofit)"
+    "name": "Kasumi (Retrofit)",
+    "type": 1,
+    "id": 219
   },
   "220": {
-    "id": 220,
-    "type": 1,
     "code": "Hiyou META",
     "nation": 0,
-    "name": "Hiyou META"
+    "name": "Hiyou META",
+    "type": 1,
+    "id": 220
   },
   "221": {
-    "id": 221,
-    "type": 1,
     "code": "Junyou META",
     "nation": 0,
-    "name": "Junyou META"
+    "name": "Junyou META",
+    "type": 1,
+    "id": 221
   },
   "223": {
-    "id": 223,
-    "type": 1,
     "code": "Yamashiro META",
     "nation": 0,
-    "name": "Yamashiro META"
+    "name": "Yamashiro META",
+    "type": 1,
+    "id": 223
   },
   "224": {
-    "id": 224,
-    "type": 1,
     "code": "Harbin",
     "nation": 0,
-    "name": "Harbin"
+    "name": "Harbin",
+    "type": 1,
+    "id": 224
   },
   "225": {
-    "id": 225,
-    "type": 1,
     "code": "Wakatsuki",
     "nation": 0,
-    "name": "Wakatsuki"
+    "name": "Wakatsuki",
+    "type": 1,
+    "id": 225
   },
   "226": {
-    "id": 226,
-    "type": 1,
     "code": "Sakawa",
     "nation": 0,
-    "name": "Sakawa"
+    "name": "Sakawa",
+    "type": 1,
+    "id": 226
   },
   "227": {
-    "id": 227,
-    "type": 1,
     "code": "Noshiro μ",
     "nation": 0,
-    "name": "Noshiro μ"
+    "name": "Noshiro μ",
+    "type": 1,
+    "id": 227
   },
   "228": {
-    "id": 228,
-    "type": 1,
     "code": "Kongou μ",
     "nation": 0,
-    "name": "Kongou μ"
+    "name": "Kongou μ",
+    "type": 1,
+    "id": 228
   },
   "229": {
-    "id": 229,
-    "type": 1,
     "code": "Kasumi META",
     "nation": 0,
-    "name": "Kasumi META"
+    "name": "Kasumi META",
+    "type": 1,
+    "id": 229
   },
   "235": {
-    "id": 235,
-    "type": 1,
     "code": "槔",
     "nation": 0,
-    "name": "皋月"
+    "name": "皋月",
+    "type": 1,
+    "id": 235
   },
   "236": {
-    "id": 236,
-    "type": 1,
     "code": "葞",
     "nation": 0,
-    "name": "弥生"
+    "name": "弥生",
+    "type": 1,
+    "id": 236
   },
   "230": {
-    "id": 230,
-    "type": 1,
     "code": "Nagato META",
     "nation": 0,
-    "name": "Nagato META"
+    "name": "Nagato META",
+    "type": 1,
+    "id": 230
   },
   "231": {
-    "id": 231,
-    "type": 1,
     "code": "Watarase",
     "nation": 0,
-    "name": "Watarase"
+    "name": "Watarase",
+    "type": 1,
+    "id": 231
   },
   "232": {
-    "id": 232,
-    "type": 1,
     "code": "Hiei META",
     "nation": 0,
-    "name": "Hiei META"
+    "name": "Hiei META",
+    "type": 1,
+    "id": 232
   },
   "233": {
-    "id": 233,
-    "type": 1,
     "code": "Ayase",
     "nation": 0,
-    "name": "Ayase"
+    "name": "Ayase",
+    "type": 1,
+    "id": 233
   },
   "234": {
-    "id": 234,
-    "type": 1,
     "code": "Suzunami",
     "nation": 0,
-    "name": "Suzunami"
+    "name": "Suzunami",
+    "type": 1,
+    "id": 234
   },
   "237": {
-    "id": 237,
-    "type": 1,
     "code": "Houshou META",
     "nation": 0,
-    "name": "Houshou META"
+    "name": "Houshou META",
+    "type": 1,
+    "id": 237
   },
   "238": {
-    "id": 238,
-    "type": 1,
     "code": "Taihou META",
     "nation": 0,
-    "name": "Taihou META"
+    "name": "Taihou META",
+    "type": 1,
+    "id": 238
   },
   "250": {
-    "id": 250,
-    "type": 1,
     "code": "I-9",
     "nation": 0,
-    "name": "I-9"
+    "name": "I-9",
+    "type": 1,
+    "id": 250
   },
   "251": {
-    "id": 251,
-    "type": 1,
     "code": "I-16",
     "nation": 0,
-    "name": "I-16"
+    "name": "I-16",
+    "type": 1,
+    "id": 251
   },
   "252": {
-    "id": 252,
-    "type": 1,
     "code": "I-25",
     "nation": 0,
-    "name": "I-25"
+    "name": "I-25",
+    "type": 1,
+    "id": 252
   },
   "253": {
-    "id": 253,
-    "type": 1,
     "code": "I-54",
     "nation": 0,
-    "name": "I-54"
+    "name": "I-54",
+    "type": 1,
+    "id": 253
   },
   "254": {
-    "id": 254,
-    "type": 1,
     "code": "I-56",
     "nation": 0,
-    "name": "I-56"
+    "name": "I-56",
+    "type": 1,
+    "id": 254
   },
   "255": {
-    "id": 255,
-    "type": 1,
     "code": "I-60",
     "nation": 0,
-    "name": "I-60"
+    "name": "I-60",
+    "type": 1,
+    "id": 255
   },
   "256": {
-    "id": 256,
-    "type": 1,
     "code": "I-168",
     "nation": 0,
-    "name": "I-168"
+    "name": "I-168",
+    "type": 1,
+    "id": 256
   },
   "257": {
-    "id": 257,
-    "type": 1,
     "code": "I-490",
     "nation": 0,
-    "name": "I-490"
+    "name": "I-490",
+    "type": 1,
+    "id": 257
   },
   "280": {
-    "id": 280,
-    "type": 1,
     "code": "Type B1",
     "nation": 0,
-    "name": "Type B1"
+    "name": "Type B1",
+    "type": 1,
+    "id": 280
   },
   "281": {
-    "id": 281,
-    "type": 1,
     "code": "Kaidai Type",
     "nation": 0,
-    "name": "Kaidai Type"
+    "name": "Kaidai Type",
+    "type": 1,
+    "id": 281
   },
   "282": {
-    "id": 282,
-    "type": 1,
     "code": "Type A Mod. 2",
     "nation": 0,
-    "name": "Type A Mod. 2"
+    "name": "Type A Mod. 2",
+    "type": 1,
+    "id": 282
   },
   "283": {
-    "id": 283,
-    "type": 1,
     "code": "Type B Mod. 2",
     "nation": 0,
-    "name": "Type B Mod. 2"
+    "name": "Type B Mod. 2",
+    "type": 1,
+    "id": 283
   },
   "284": {
-    "id": 284,
-    "type": 1,
     "code": "Kaidai Type VIa",
     "nation": 0,
-    "name": "Kaidai Type VIa"
+    "name": "Kaidai Type VIa",
+    "type": 1,
+    "id": 284
   },
   "285": {
-    "id": 285,
-    "type": 1,
     "code": "I-Type",
     "nation": 0,
-    "name": "I-Type"
+    "name": "I-Type",
+    "type": 1,
+    "id": 285
   },
   "286": {
-    "id": 286,
-    "type": 1,
     "code": "Mass-Produced Yuugumo Class MK 2",
     "nation": 0,
-    "name": "Mass-Produced Yuugumo Class MK 2"
+    "name": "Mass-Produced Yuugumo Class MK 2",
+    "type": 1,
+    "id": 286
   },
   "287": {
-    "id": 287,
-    "type": 1,
     "code": "Mass-Produced Sendai Class MK 2",
     "nation": 0,
-    "name": "Mass-Produced Sendai Class MK 2"
+    "name": "Mass-Produced Sendai Class MK 2",
+    "type": 1,
+    "id": 287
   },
   "288": {
-    "id": 288,
-    "type": 1,
     "code": "Mass-Produced Mogami Class MK 2",
     "nation": 0,
-    "name": "Mass-Produced Mogami Class MK 2"
+    "name": "Mass-Produced Mogami Class MK 2",
+    "type": 1,
+    "id": 288
   },
   "289": {
-    "id": 289,
-    "type": 1,
     "code": "Mass-Produced Fusou Class MK 2",
     "nation": 0,
-    "name": "Mass-Produced Fusou Class MK 2"
+    "name": "Mass-Produced Fusou Class MK 2",
+    "type": 1,
+    "id": 289
   },
   "290": {
-    "id": 290,
-    "type": 1,
     "code": "Mass-Produced Akagi Class MK 2",
     "nation": 0,
-    "name": "Mass-Produced Akagi Class MK 2"
+    "name": "Mass-Produced Akagi Class MK 2",
+    "type": 1,
+    "id": 290
   },
   "291": {
-    "id": 291,
-    "type": 1,
     "code": "Taihou-chan",
     "nation": 0,
-    "name": "Taihou-chan"
+    "name": "Taihou-chan",
+    "type": 1,
+    "id": 291
   },
   "292": {
-    "id": 292,
-    "type": 1,
     "code": "Shimanto",
     "nation": 0,
-    "name": "Shimanto"
+    "name": "Shimanto",
+    "type": 1,
+    "id": 292
   },
   "293": {
-    "id": 293,
-    "type": 1,
     "code": "Jintsuu META",
     "nation": 0,
-    "name": "Jintsuu META"
+    "name": "Jintsuu META",
+    "type": 1,
+    "id": 293
   },
   "294": {
-    "id": 294,
-    "type": 1,
     "code": "Unzen",
     "nation": 0,
-    "name": "云仙"
+    "name": "云仙",
+    "type": 1,
+    "id": 294
   },
   "295": {
-    "id": 295,
-    "type": 1,
     "code": "Owari",
     "nation": 0,
-    "name": "尾张"
+    "name": "尾张",
+    "type": 1,
+    "id": 295
   },
   "297": {
-    "id": 297,
-    "type": 1,
     "code": "Beach Paradise",
     "nation": 0,
-    "name": "名取"
+    "name": "名取",
+    "type": 1,
+    "id": 297
   },
   "298": {
-    "id": 298,
-    "type": 1,
     "code": "Asanagi",
     "nation": 0,
-    "name": "朝凪"
+    "name": "朝凪",
+    "type": 1,
+    "id": 298
   },
   "299": {
-    "id": 299,
-    "type": 1,
     "code": "Daisen",
     "nation": 0,
-    "name": "Daisen"
+    "name": "Daisen",
+    "type": 1,
+    "id": 299
   },
   "300": {
-    "id": 300,
-    "type": 1,
     "code": "Kawakaze META",
     "nation": 0,
-    "name": "Kawakaze META"
+    "name": "Kawakaze META",
+    "type": 1,
+    "id": 300
   },
   "301": {
-    "id": 301,
-    "type": 1,
     "code": "Yuudachi META",
     "nation": 0,
-    "name": "Yuudachi META"
+    "name": "Yuudachi META",
+    "type": 1,
+    "id": 301
   },
   "302": {
-    "id": 302,
-    "type": 1,
     "code": "Hakuhou",
     "nation": 0,
-    "name": "Hakuhou"
+    "name": "Hakuhou",
+    "type": 1,
+    "id": 302
   },
   "303": {
-    "id": 303,
-    "type": 1,
     "code": "I-404",
     "nation": 0,
-    "name": "I-404"
+    "name": "I-404",
+    "type": 1,
+    "id": 303
   },
   "304": {
-    "id": 304,
-    "type": 1,
     "code": "Oumi",
     "nation": 0,
-    "name": "Oumi"
+    "name": "Oumi",
+    "type": 1,
+    "id": 304
   },
   "305": {
-    "id": 305,
-    "type": 1,
     "code": "Asama",
     "nation": 0,
-    "name": "Asama"
+    "name": "Asama",
+    "type": 1,
+    "id": 305
   },
   "306": {
-    "id": 306,
-    "type": 1,
     "code": "Minase",
     "nation": 0,
-    "name": "Minase"
+    "name": "Minase",
+    "type": 1,
+    "id": 306
   },
   "307": {
-    "id": 307,
-    "type": 1,
     "code": "Taekaze",
     "nation": 0,
-    "name": "Taekaze"
+    "name": "Taekaze",
+    "type": 1,
+    "id": 307
   },
   "308": {
-    "id": 308,
-    "type": 1,
     "code": "Sentoku Type",
     "nation": 0,
-    "name": "Sentoku Type"
+    "name": "Sentoku Type",
+    "type": 1,
+    "id": 308
   },
   "309": {
-    "id": 309,
-    "type": 1,
     "code": "Mass-Produced Kongou Class",
     "nation": 0,
-    "name": "Mass-Produced Kongou Class"
+    "name": "Mass-Produced Kongou Class",
+    "type": 1,
+    "id": 309
   },
   "310": {
-    "id": 310,
-    "type": 1,
     "code": "Fujinami",
     "nation": 0,
-    "name": "Fujinami"
+    "name": "Fujinami",
+    "type": 1,
+    "id": 310
   },
   "311": {
-    "id": 311,
-    "type": 1,
     "code": "Nayoro",
     "nation": 0,
-    "name": "Nayoro"
+    "name": "Nayoro",
+    "type": 1,
+    "id": 311
   },
   "312": {
-    "id": 312,
-    "type": 1,
     "code": "Kizu",
     "nation": 0,
-    "name": "Kizu"
+    "name": "Kizu",
+    "type": 1,
+    "id": 312
   },
   "313": {
-    "id": 313,
-    "type": 1,
     "code": "Takahashi",
     "nation": 0,
-    "name": "Takahashi"
+    "name": "Takahashi",
+    "type": 1,
+    "id": 313
   },
   "314": {
-    "id": 314,
-    "type": 1,
     "code": "I-14",
     "nation": 0,
-    "name": "I-14"
+    "name": "I-14",
+    "type": 1,
+    "id": 314
   },
   "315": {
-    "id": 315,
-    "type": 1,
     "code": "Azuchi",
     "nation": 0,
-    "name": "Azuchi"
+    "name": "Azuchi",
+    "type": 1,
+    "id": 315
   },
   "400": {
-    "id": 400,
-    "type": 1,
     "code": "Z1",
     "nation": 0,
-    "name": "Z1"
+    "name": "Z1",
+    "type": 1,
+    "id": 400
   },
   "401": {
-    "id": 401,
-    "type": 1,
     "code": "Z2",
     "nation": 0,
-    "name": "Z2"
+    "name": "Z2",
+    "type": 1,
+    "id": 401
   },
   "402": {
-    "id": 402,
-    "type": 1,
     "code": "Z5",
     "nation": 0,
-    "name": "Z5"
+    "name": "Z5",
+    "type": 1,
+    "id": 402
   },
   "403": {
-    "id": 403,
-    "type": 1,
     "code": "Z17",
     "nation": 0,
-    "name": "Z17"
+    "name": "Z17",
+    "type": 1,
+    "id": 403
   },
   "404": {
-    "id": 404,
-    "type": 1,
     "code": "Z18",
     "nation": 0,
-    "name": "Z18"
+    "name": "Z18",
+    "type": 1,
+    "id": 404
   },
   "405": {
-    "id": 405,
-    "type": 1,
     "code": "Z19",
     "nation": 0,
-    "name": "Z19"
+    "name": "Z19",
+    "type": 1,
+    "id": 405
   },
   "406": {
-    "id": 406,
-    "type": 1,
     "code": "Z20",
     "nation": 0,
-    "name": "Z20"
+    "name": "Z20",
+    "type": 1,
+    "id": 406
   },
   "407": {
-    "id": 407,
-    "type": 1,
     "code": "Z21",
     "nation": 0,
-    "name": "Z21"
+    "name": "Z21",
+    "type": 1,
+    "id": 407
   },
   "408": {
-    "id": 408,
-    "type": 1,
     "code": "Z23",
     "nation": 0,
-    "name": "Z23"
+    "name": "Z23",
+    "type": 1,
+    "id": 408
   },
   "409": {
-    "id": 409,
-    "type": 1,
     "code": "Z25",
     "nation": 0,
-    "name": "Z25"
+    "name": "Z25",
+    "type": 1,
+    "id": 409
   },
   "410": {
-    "id": 410,
-    "type": 1,
     "code": "Z35",
     "nation": 0,
-    "name": "Z35"
+    "name": "Z35",
+    "type": 1,
+    "id": 410
   },
   "411": {
-    "id": 411,
-    "type": 1,
     "code": "Z36",
     "nation": 0,
-    "name": "Z36"
+    "name": "Z36",
+    "type": 1,
+    "id": 411
   },
   "412": {
-    "id": 412,
-    "type": 1,
     "code": "Z46",
     "nation": 0,
-    "name": "Z46"
+    "name": "Z46",
+    "type": 1,
+    "id": 412
   },
   "413": {
-    "id": 413,
-    "type": 1,
     "code": "U-47",
     "nation": 0,
-    "name": "U-47"
+    "name": "U-47",
+    "type": 1,
+    "id": 413
   },
   "414": {
-    "id": 414,
-    "type": 1,
     "code": "U-81",
     "nation": 0,
-    "name": "U-81"
+    "name": "U-81",
+    "type": 1,
+    "id": 414
   },
   "415": {
-    "id": 415,
-    "type": 1,
     "code": "U-557",
     "nation": 0,
-    "name": "U-557"
+    "name": "U-557",
+    "type": 1,
+    "id": 415
   },
   "416": {
-    "id": 416,
-    "type": 1,
     "code": "U-556",
     "nation": 0,
-    "name": "U-556"
+    "name": "U-556",
+    "type": 1,
+    "id": 416
   },
   "417": {
-    "id": 417,
-    "type": 1,
     "code": "U-73",
     "nation": 0,
-    "name": "U-73"
+    "name": "U-73",
+    "type": 1,
+    "id": 417
   },
   "418": {
-    "id": 418,
-    "type": 1,
     "code": "U-101",
     "nation": 0,
-    "name": "U-101"
+    "name": "U-101",
+    "type": 1,
+    "id": 418
   },
   "419": {
-    "id": 419,
-    "type": 1,
     "code": "U-522",
     "nation": 0,
-    "name": "U-522"
+    "name": "U-522",
+    "type": 1,
+    "id": 419
   },
   "420": {
-    "id": 420,
-    "type": 1,
     "code": "U-110",
     "nation": 0,
-    "name": "U-110"
+    "name": "U-110",
+    "type": 1,
+    "id": 420
   },
   "421": {
-    "id": 421,
-    "type": 1,
     "code": "Königsberg",
     "nation": 0,
-    "name": "Königsberg"
+    "name": "Königsberg",
+    "type": 1,
+    "id": 421
   },
   "422": {
-    "id": 422,
-    "type": 1,
     "code": "Karlsruhe",
     "nation": 0,
-    "name": "Karlsruhe"
+    "name": "Karlsruhe",
+    "type": 1,
+    "id": 422
   },
   "423": {
-    "id": 423,
-    "type": 1,
     "code": "Köln",
     "nation": 0,
-    "name": "Köln"
+    "name": "Köln",
+    "type": 1,
+    "id": 423
   },
   "424": {
-    "id": 424,
-    "type": 1,
     "code": "Leipzig",
     "nation": 0,
-    "name": "Leipzig"
+    "name": "Leipzig",
+    "type": 1,
+    "id": 424
   },
   "425": {
-    "id": 425,
-    "type": 1,
     "code": "Admiral Hipper",
     "nation": 0,
-    "name": "Admiral Hipper"
+    "name": "Admiral Hipper",
+    "type": 1,
+    "id": 425
   },
   "426": {
-    "id": 426,
-    "type": 1,
     "code": "Hipper",
     "nation": 0,
-    "name": "Hipper"
+    "name": "Hipper",
+    "type": 1,
+    "id": 426
   },
   "427": {
-    "id": 427,
-    "type": 1,
     "code": "Prinz Eugen",
     "nation": 0,
-    "name": "Prinz Eugen"
+    "name": "Prinz Eugen",
+    "type": 1,
+    "id": 427
   },
   "428": {
-    "id": 428,
-    "type": 1,
     "code": "Eugen",
     "nation": 0,
-    "name": "Eugen"
+    "name": "Eugen",
+    "type": 1,
+    "id": 428
   },
   "429": {
-    "id": 429,
-    "type": 1,
     "code": "Deutschland",
     "nation": 0,
-    "name": "Deutschland"
+    "name": "Deutschland",
+    "type": 1,
+    "id": 429
   },
   "430": {
-    "id": 430,
-    "type": 1,
     "code": "Admiral Graf Spee",
     "nation": 0,
-    "name": "Admiral Graf Spee"
+    "name": "Admiral Graf Spee",
+    "type": 1,
+    "id": 430
   },
   "431": {
-    "id": 431,
-    "type": 1,
     "code": "Graf Spee",
     "nation": 0,
-    "name": "Graf Spee"
+    "name": "Graf Spee",
+    "type": 1,
+    "id": 431
   },
   "432": {
-    "id": 432,
-    "type": 1,
     "code": "Spee",
     "nation": 0,
-    "name": "Spee"
+    "name": "Spee",
+    "type": 1,
+    "id": 432
   },
   "433": {
-    "id": 433,
-    "type": 1,
     "code": "Scharnhorst",
     "nation": 0,
-    "name": "Scharnhorst"
+    "name": "Scharnhorst",
+    "type": 1,
+    "id": 433
   },
   "434": {
-    "id": 434,
-    "type": 1,
     "code": "Gneisenau",
     "nation": 0,
-    "name": "Gneisenau"
+    "name": "Gneisenau",
+    "type": 1,
+    "id": 434
   },
   "435": {
-    "id": 435,
-    "type": 1,
     "code": "Bismarck",
     "nation": 0,
-    "name": "Bismarck"
+    "name": "Bismarck",
+    "type": 1,
+    "id": 435
   },
   "436": {
-    "id": 436,
-    "type": 1,
     "code": "Tirpitz",
     "nation": 0,
-    "name": "Tirpitz"
+    "name": "Tirpitz",
+    "type": 1,
+    "id": 436
   },
   "437": {
-    "id": 437,
-    "type": 1,
     "code": "Graf Zeppelin",
     "nation": 0,
-    "name": "Graf Zeppelin"
+    "name": "Graf Zeppelin",
+    "type": 1,
+    "id": 437
   },
   "438": {
-    "id": 438,
-    "type": 1,
     "code": "Zeppelin",
     "nation": 0,
-    "name": "Zeppelin"
+    "name": "Zeppelin",
+    "type": 1,
+    "id": 438
   },
   "439": {
-    "id": 439,
-    "type": 1,
     "code": "Roon",
     "nation": 0,
-    "name": "Roon"
+    "name": "Roon",
+    "type": 1,
+    "id": 439
   },
   "440": {
-    "id": 440,
-    "type": 1,
     "code": "Friedrich der Grosse",
     "nation": 0,
-    "name": "Friedrich der Grosse"
+    "name": "Friedrich der Grosse",
+    "type": 1,
+    "id": 440
   },
   "441": {
-    "id": 441,
-    "type": 1,
     "code": "Friedrich",
     "nation": 0,
-    "name": "Friedrich"
+    "name": "Friedrich",
+    "type": 1,
+    "id": 441
   },
   "442": {
-    "id": 442,
-    "type": 1,
     "code": "Z16",
     "nation": 0,
-    "name": "Z16"
+    "name": "Z16",
+    "type": 1,
+    "id": 442
   },
   "443": {
-    "id": 443,
-    "type": 1,
     "code": "Z24",
     "nation": 0,
-    "name": "Z24"
+    "name": "Z24",
+    "type": 1,
+    "id": 443
   },
   "444": {
-    "id": 444,
-    "type": 1,
     "code": "Z26",
     "nation": 0,
-    "name": "Z26"
+    "name": "Z26",
+    "type": 1,
+    "id": 444
   },
   "445": {
-    "id": 445,
-    "type": 1,
     "code": "Z28",
     "nation": 0,
-    "name": "Z28"
+    "name": "Z28",
+    "type": 1,
+    "id": 445
   },
   "446": {
-    "id": 446,
-    "type": 1,
     "code": "Nürnberg ",
     "nation": 0,
-    "name": "Nürnberg "
+    "name": "Nürnberg ",
+    "type": 1,
+    "id": 446
   },
   "447": {
-    "id": 447,
-    "type": 1,
     "code": "Magdeburg",
     "nation": 0,
-    "name": "Magdeburg"
+    "name": "Magdeburg",
+    "type": 1,
+    "id": 447
   },
   "448": {
-    "id": 448,
-    "type": 1,
     "code": "Emden",
     "nation": 0,
-    "name": "Emden"
+    "name": "Emden",
+    "type": 1,
+    "id": 448
   },
   "449": {
-    "id": 449,
-    "type": 1,
     "code": "Elbing",
     "nation": 0,
-    "name": "Elbing"
+    "name": "Elbing",
+    "type": 1,
+    "id": 449
   },
   "450": {
-    "id": 450,
-    "type": 1,
     "code": "Blücher",
     "nation": 0,
-    "name": "Blücher"
+    "name": "Blücher",
+    "type": 1,
+    "id": 450
   },
   "451": {
-    "id": 451,
-    "type": 1,
     "code": "Admiral Hipper μ",
     "nation": 0,
-    "name": "Admiral Hipper μ"
+    "name": "Admiral Hipper μ",
+    "type": 1,
+    "id": 451
   },
   "452": {
-    "id": 452,
-    "type": 1,
     "code": "Roon μ ",
     "nation": 0,
-    "name": "Roon μ "
+    "name": "Roon μ ",
+    "type": 1,
+    "id": 452
   },
   "453": {
-    "id": 453,
-    "type": 1,
     "code": "Prinz Heinrich ",
     "nation": 0,
-    "name": "Prinz Heinrich "
+    "name": "Prinz Heinrich ",
+    "type": 1,
+    "id": 453
   },
   "454": {
-    "id": 454,
-    "type": 1,
     "code": "Heinrich ",
     "nation": 0,
-    "name": "Heinrich "
+    "name": "Heinrich ",
+    "type": 1,
+    "id": 454
   },
   "455": {
-    "id": 455,
-    "type": 1,
     "code": "Prinz Adalbert",
     "nation": 0,
-    "name": "Prinz Adalbert"
+    "name": "Prinz Adalbert",
+    "type": 1,
+    "id": 455
   },
   "456": {
-    "id": 456,
-    "type": 1,
     "code": "Adalbert",
     "nation": 0,
-    "name": "Adalbert"
+    "name": "Adalbert",
+    "type": 1,
+    "id": 456
   },
   "457": {
-    "id": 457,
-    "type": 1,
     "code": "York",
     "nation": 4,
-    "name": "York"
+    "name": "York",
+    "type": 1,
+    "id": 457
   },
   "458": {
-    "id": 458,
-    "type": 1,
     "code": "Little Prinz Eugen",
     "nation": 0,
-    "name": "Little Prinz Eugen"
+    "name": "Little Prinz Eugen",
+    "type": 1,
+    "id": 458
   },
   "459": {
-    "id": 459,
-    "type": 1,
     "code": "Little Spee",
     "nation": 0,
-    "name": "Little Spee"
+    "name": "Little Spee",
+    "type": 1,
+    "id": 459
   },
   "460": {
-    "id": 460,
-    "type": 1,
     "code": "Seydlitz",
     "nation": 0,
-    "name": "Seydlitz"
+    "name": "Seydlitz",
+    "type": 1,
+    "id": 460
   },
   "461": {
-    "id": 461,
-    "type": 1,
     "code": "Lützow",
     "nation": 0,
-    "name": "Lützow"
+    "name": "Lützow",
+    "type": 1,
+    "id": 461
   },
   "462": {
-    "id": 462,
-    "type": 1,
     "code": "Brünhilde",
     "nation": 0,
-    "name": "Brünhilde"
+    "name": "Brünhilde",
+    "type": 1,
+    "id": 462
   },
   "463": {
-    "id": 463,
-    "type": 1,
     "code": "Ulrich von Hutten",
     "nation": 0,
-    "name": "Ulrich von Hutten"
+    "name": "Ulrich von Hutten",
+    "type": 1,
+    "id": 463
   },
   "464": {
-    "id": 464,
-    "type": 1,
     "code": "Hutten",
     "nation": 0,
-    "name": "Hutten"
+    "name": "Hutten",
+    "type": 1,
+    "id": 464
   },
   "465": {
-    "id": 465,
-    "type": 1,
     "code": "Hutten",
     "nation": 0,
-    "name": "Hutten"
+    "name": "Hutten",
+    "type": 1,
+    "id": 465
   },
   "466": {
-    "id": 466,
-    "type": 1,
     "code": "Thüringen",
     "nation": 0,
-    "name": "Thüringen"
+    "name": "Thüringen",
+    "type": 1,
+    "id": 466
   },
   "467": {
-    "id": 467,
-    "type": 1,
     "code": "Weser",
     "nation": 0,
-    "name": "Weser"
+    "name": "Weser",
+    "type": 1,
+    "id": 467
   },
   "468": {
-    "id": 468,
-    "type": 1,
     "code": "Elbe",
     "nation": 0,
-    "name": "Elbe"
+    "name": "Elbe",
+    "type": 1,
+    "id": 468
   },
   "469": {
-    "id": 469,
-    "type": 1,
     "code": "Zeppy",
     "nation": 0,
-    "name": "Zeppy"
+    "name": "Zeppy",
+    "type": 1,
+    "id": 469
   },
   "470": {
-    "id": 470,
-    "type": 1,
     "code": "Peter Strasser",
     "nation": 0,
-    "name": "Peter Strasser"
+    "name": "Peter Strasser",
+    "type": 1,
+    "id": 470
   },
   "471": {
-    "id": 471,
-    "type": 1,
     "code": "Peter",
     "nation": 0,
-    "name": "Peter"
+    "name": "Peter",
+    "type": 1,
+    "id": 471
   },
   "472": {
-    "id": 472,
-    "type": 1,
     "code": "Strasser",
     "nation": 0,
-    "name": "Strasser"
+    "name": "Strasser",
+    "type": 1,
+    "id": 472
   },
   "473": {
-    "id": 473,
-    "type": 1,
     "code": "U-96",
     "nation": 0,
-    "name": "U-96"
+    "name": "U-96",
+    "type": 1,
+    "id": 473
   },
   "474": {
-    "id": 474,
-    "type": 1,
     "code": "U-37",
     "nation": 0,
-    "name": "U-37"
+    "name": "U-37",
+    "type": 1,
+    "id": 474
   },
   "475": {
-    "id": 475,
-    "type": 1,
     "code": "U-410",
     "nation": 0,
-    "name": "U-410"
+    "name": "U-410",
+    "type": 1,
+    "id": 475
   },
   "476": {
-    "id": 476,
-    "type": 1,
     "code": "U-1206",
     "nation": 0,
-    "name": "U-1206"
+    "name": "U-1206",
+    "type": 1,
+    "id": 476
   },
   "477": {
-    "id": 477,
-    "type": 1,
     "code": "Gneisenau META",
     "nation": 0,
-    "name": "Gneisenau META"
+    "name": "Gneisenau META",
+    "type": 1,
+    "id": 477
   },
   "478": {
-    "id": 478,
-    "type": 1,
     "code": "Scharnhorst META",
     "nation": 0,
-    "name": "Scharnhorst META"
+    "name": "Scharnhorst META",
+    "type": 1,
+    "id": 478
   },
   "479": {
-    "id": 479,
-    "type": 1,
     "code": "Mainz",
     "nation": 0,
-    "name": "Mainz"
+    "name": "Mainz",
+    "type": 1,
+    "id": 479
   },
   "480": {
-    "id": 480,
-    "type": 1,
     "code": "Ägir",
     "nation": 0,
-    "name": "Ägir"
+    "name": "Ägir",
+    "type": 1,
+    "id": 480
   },
   "481": {
-    "id": 481,
-    "type": 1,
     "code": "August von Parseval",
     "nation": 0,
-    "name": "August von Parseval"
+    "name": "August von Parseval",
+    "type": 1,
+    "id": 481
   },
   "482": {
-    "id": 482,
-    "type": 1,
     "code": "August",
     "nation": 0,
-    "name": "August"
+    "name": "August",
+    "type": 1,
+    "id": 482
   },
   "483": {
-    "id": 483,
-    "type": 1,
     "code": "Parseval",
     "nation": 0,
-    "name": "Parseval"
+    "name": "Parseval",
+    "type": 1,
+    "id": 483
   },
   "484": {
-    "id": 484,
-    "type": 1,
     "code": "Prinz Rupprecht",
     "nation": 0,
-    "name": "Prinz Rupprecht"
+    "name": "Prinz Rupprecht",
+    "type": 1,
+    "id": 484
   },
   "485": {
-    "id": 485,
-    "type": 1,
     "code": "Rupprecht",
     "nation": 0,
-    "name": "Rupprecht"
+    "name": "Rupprecht",
+    "type": 1,
+    "id": 485
   },
   "486": {
-    "id": 486,
-    "type": 1,
     "code": "Odin",
     "nation": 0,
-    "name": "Odin"
+    "name": "Odin",
+    "type": 1,
+    "id": 486
   },
   "487": {
-    "id": 487,
-    "type": 1,
     "code": "迪特林德",
     "nation": 0,
-    "name": "德累斯顿"
+    "name": "德累斯顿",
+    "type": 1,
+    "id": 487
   },
   "488": {
-    "id": 488,
-    "type": 1,
     "code": "宝拉",
     "nation": 0,
-    "name": "皮劳"
+    "name": "皮劳",
+    "type": 1,
+    "id": 488
   },
   "489": {
-    "id": 489,
-    "type": 1,
     "code": "多萝泰娅",
     "nation": 0,
-    "name": "德弗林格尔"
+    "name": "德弗林格尔",
+    "type": 1,
+    "id": 489
   },
   "490": {
-    "id": 490,
-    "type": 1,
     "code": "赫娜洛蕾",
     "nation": 0,
-    "name": "赫尔戈兰"
+    "name": "赫尔戈兰",
+    "type": 1,
+    "id": 490
   },
   "491": {
-    "id": 491,
-    "type": 1,
     "code": "阿黛尔",
     "nation": 0,
-    "name": "亚德"
+    "name": "亚德",
+    "type": 1,
+    "id": 491
   },
   "492": {
-    "id": 492,
-    "type": 1,
     "code": "席勒",
     "nation": 0,
-    "name": "舍尔海军上将"
+    "name": "舍尔海军上将",
+    "type": 1,
+    "id": 492
   },
   "493": {
-    "id": 493,
-    "type": 1,
     "code": "席勒",
     "nation": 0,
-    "name": "舍尔"
+    "name": "舍尔",
+    "type": 1,
+    "id": 493
   },
   "494": {
-    "id": 494,
-    "type": 1,
     "code": "Z47",
     "nation": 0,
-    "name": "Z47"
+    "name": "Z47",
+    "type": 1,
+    "id": 494
   },
   "495": {
-    "id": 495,
-    "type": 1,
     "code": "Z9",
     "nation": 0,
-    "name": "Z9"
+    "name": "Z9",
+    "type": 1,
+    "id": 495
   },
   "496": {
-    "id": 496,
-    "type": 1,
     "code": "Z11",
     "nation": 0,
-    "name": "Z11"
+    "name": "Z11",
+    "type": 1,
+    "id": 496
   },
   "497": {
-    "id": 497,
-    "type": 1,
     "code": "Z12",
     "nation": 0,
-    "name": "Z12"
+    "name": "Z12",
+    "type": 1,
+    "id": 497
   },
   "498": {
-    "id": 498,
-    "type": 1,
     "code": "Z13",
     "nation": 0,
-    "name": "Z13"
+    "name": "Z13",
+    "type": 1,
+    "id": 498
   },
   "499": {
-    "id": 499,
-    "type": 1,
     "code": "Z22",
     "nation": 0,
-    "name": "Z22"
+    "name": "Z22",
+    "type": 1,
+    "id": 499
   },
   "500": {
-    "id": 500,
-    "type": 1,
     "code": "Deutschland-class Production Model",
     "nation": 0,
-    "name": "Deutschland-class Production Model"
+    "name": "Deutschland-class Production Model",
+    "type": 1,
+    "id": 500
   },
   "501": {
-    "id": 501,
-    "type": 1,
     "code": "Königsberg-class Production Model",
     "nation": 0,
-    "name": "Königsberg-class Production Model"
+    "name": "Königsberg-class Production Model",
+    "type": 1,
+    "id": 501
   },
   "502": {
-    "id": 502,
-    "type": 1,
     "code": "Admiral Hipper-class Production Model",
     "nation": 0,
-    "name": "Admiral Hipper-class Production Model"
+    "name": "Admiral Hipper-class Production Model",
+    "type": 1,
+    "id": 502
   },
   "503": {
-    "id": 503,
-    "type": 1,
     "code": "Scharnhorst-class Production Model",
     "nation": 0,
-    "name": "Scharnhorst-class Production Model"
+    "name": "Scharnhorst-class Production Model",
+    "type": 1,
+    "id": 503
   },
   "504": {
-    "id": 504,
-    "type": 1,
     "code": "Zeppelin-class Production Model",
     "nation": 0,
-    "name": "Zeppelin-class Production Model"
+    "name": "Zeppelin-class Production Model",
+    "type": 1,
+    "id": 504
   },
   "505": {
-    "id": 505,
-    "type": 1,
     "code": "Mass-Produced Deutschland-classs Mod I",
     "nation": 0,
-    "name": "Mass-Produced Deutschland-classs Mod I"
+    "name": "Mass-Produced Deutschland-classs Mod I",
+    "type": 1,
+    "id": 505
   },
   "506": {
-    "id": 506,
-    "type": 1,
     "code": "Mass-Produced Königsberg-class Mod I",
     "nation": 0,
-    "name": "Mass-Produced Königsberg-class Mod I"
+    "name": "Mass-Produced Königsberg-class Mod I",
+    "type": 1,
+    "id": 506
   },
   "507": {
-    "id": 507,
-    "type": 1,
     "code": "Mass-Produced Admiral Hipper-class Mod I",
     "nation": 0,
-    "name": "Mass-Produced Admiral Hipper-class Mod I"
+    "name": "Mass-Produced Admiral Hipper-class Mod I",
+    "type": 1,
+    "id": 507
   },
   "508": {
-    "id": 508,
-    "type": 1,
     "code": "Mass-Produced Scharnhorst-class Mod I",
     "nation": 0,
-    "name": "Mass-Produced Scharnhorst-class Mod I"
+    "name": "Mass-Produced Scharnhorst-class Mod I",
+    "type": 1,
+    "id": 508
   },
   "509": {
-    "id": 509,
-    "type": 1,
     "code": "Mass-Produced Graf Zeppelin-class Mod I",
     "nation": 0,
-    "name": "Mass-Produced Graf Zeppelin-class Mod I"
+    "name": "Mass-Produced Graf Zeppelin-class Mod I",
+    "type": 1,
+    "id": 509
   },
   "510": {
-    "id": 510,
-    "type": 1,
     "code": "Otto von Alvensleben",
     "nation": 0,
-    "name": "Otto von Alvensleben"
+    "name": "Otto von Alvensleben",
+    "type": 1,
+    "id": 510
   },
   "511": {
-    "id": 511,
-    "type": 1,
     "code": "Otto",
     "nation": 0,
-    "name": "Otto"
+    "name": "Otto",
+    "type": 1,
+    "id": 511
   },
   "512": {
-    "id": 512,
-    "type": 1,
     "code": "Alvensleben",
     "nation": 0,
-    "name": "Alvensleben"
+    "name": "Alvensleben",
+    "type": 1,
+    "id": 512
   },
   "513": {
-    "id": 513,
-    "type": 1,
     "code": "Alvensleben",
     "nation": 0,
-    "name": "Alvensleben"
+    "name": "Alvensleben",
+    "type": 1,
+    "id": 513
   },
   "514": {
-    "id": 514,
-    "type": 1,
     "code": "Bismarck Zwei",
     "nation": 0,
-    "name": "Bismarck Zwei"
+    "name": "Bismarck Zwei",
+    "type": 1,
+    "id": 514
   },
   "515": {
-    "id": 515,
-    "type": 1,
     "code": "U-556 META",
     "nation": 0,
-    "name": "U-556 META"
+    "name": "U-556 META",
+    "type": 1,
+    "id": 515
   },
   "516": {
-    "id": 516,
-    "type": 1,
     "code": "Regensburg",
     "nation": 0,
-    "name": "Regensburg"
+    "name": "Regensburg",
+    "type": 1,
+    "id": 516
   },
   "517": {
-    "id": 517,
-    "type": 1,
     "code": "U-556 META?",
     "nation": 0,
-    "name": "U-556 META?"
+    "name": "U-556 META?",
+    "type": 1,
+    "id": 517
   },
   "518": {
-    "id": 518,
-    "type": 1,
     "code": "Felix Schultz",
     "nation": 0,
-    "name": "Felix Schultz"
+    "name": "Felix Schultz",
+    "type": 1,
+    "id": 518
   },
   "519": {
-    "id": 519,
-    "type": 1,
     "code": "Felix Schultz",
     "nation": 0,
-    "name": "Felix Schultz"
+    "name": "Felix Schultz",
+    "type": 1,
+    "id": 519
   },
   "520": {
-    "id": 520,
-    "type": 1,
     "code": "Felix Schultz",
     "nation": 0,
-    "name": "Felix Schultz"
+    "name": "Felix Schultz",
+    "type": 1,
+    "id": 520
   },
   "521": {
-    "id": 521,
-    "type": 1,
     "code": "Hindenburg",
     "nation": 0,
-    "name": "Hindenburg"
+    "name": "Hindenburg",
+    "type": 1,
+    "id": 521
   },
   "522": {
-    "id": 522,
-    "type": 1,
     "code": "Hatakaze META",
     "nation": 0,
-    "name": "Hatakaze META"
+    "name": "Hatakaze META",
+    "type": 1,
+    "id": 522
   },
   "523": {
-    "id": 523,
-    "type": 1,
     "code": "Jean Bart",
     "nation": 0,
-    "name": "Jean Bart"
+    "name": "Jean Bart",
+    "type": 1,
+    "id": 523
   },
   "524": {
-    "id": 524,
-    "type": 1,
     "code": "San Diego",
     "nation": 0,
-    "name": "San Diego"
+    "name": "San Diego",
+    "type": 1,
+    "id": 524
   },
   "525": {
-    "id": 525,
-    "type": 1,
     "code": "Ingraham",
     "nation": 0,
-    "name": "Ingraham"
+    "name": "Ingraham",
+    "type": 1,
+    "id": 525
   },
   "526": {
-    "id": 526,
-    "type": 1,
     "code": "Zara",
     "nation": 0,
-    "name": "Zara"
+    "name": "Zara",
+    "type": 1,
+    "id": 526
   },
   "527": {
-    "id": 527,
-    "type": 1,
     "code": "Li'l Sandy",
     "nation": 0,
-    "name": "Li'l Sandy"
+    "name": "Li'l Sandy",
+    "type": 1,
+    "id": 527
   },
   "528": {
-    "id": 528,
-    "type": 1,
     "code": "San Diego Retrofit",
     "nation": 0,
-    "name": "San Diego Retrofit"
+    "name": "San Diego Retrofit",
+    "type": 1,
+    "id": 528
   },
   "529": {
-    "id": 529,
-    "type": 1,
     "code": "Sovetsky Soyuz",
     "nation": 0,
-    "name": "Sovetsky Soyuz"
+    "name": "Sovetsky Soyuz",
+    "type": 1,
+    "id": 529
   },
   "530": {
-    "id": 530,
-    "type": 1,
     "code": "Soyuz",
     "nation": 0,
-    "name": "Soyuz"
+    "name": "Soyuz",
+    "type": 1,
+    "id": 530
   },
   "531": {
-    "id": 531,
-    "type": 1,
     "code": "Friedrich Carl",
     "nation": 0,
-    "name": "Friedrich Carl"
+    "name": "Friedrich Carl",
+    "type": 1,
+    "id": 531
   },
   "532": {
-    "id": 532,
-    "type": 1,
     "code": "Prinz Eugen μ",
     "nation": 0,
-    "name": "Prinz Eugen μ"
+    "name": "Prinz Eugen μ",
+    "type": 1,
+    "id": 532
   },
   "533": {
-    "id": 533,
-    "type": 1,
     "code": "Boise μ",
     "nation": 0,
-    "name": "Boise μ"
+    "name": "Boise μ",
+    "type": 1,
+    "id": 533
   },
   "534": {
-    "id": 534,
-    "type": 1,
     "code": "Shinano-chan",
     "nation": 0,
-    "name": "Shinano-chan"
+    "name": "Shinano-chan",
+    "type": 1,
+    "id": 534
   },
   "535": {
-    "id": 535,
-    "type": 1,
     "code": "Little Friedrich",
     "nation": 0,
-    "name": "Little Friedrich"
+    "name": "Little Friedrich",
+    "type": 1,
+    "id": 535
   },
   "536": {
-    "id": 536,
-    "type": 1,
     "code": "U-31",
     "nation": 0,
-    "name": "U-31"
+    "name": "U-31",
+    "type": 1,
+    "id": 536
   },
   "537": {
-    "id": 537,
-    "type": 1,
     "code": "Z43",
     "nation": 0,
-    "name": "Z43"
+    "name": "Z43",
+    "type": 1,
+    "id": 537
   },
   "538": {
-    "id": 538,
-    "type": 1,
     "code": "Z9",
     "nation": 0,
-    "name": "Z9"
+    "name": "Z9",
+    "type": 1,
+    "id": 538
   },
   "539": {
-    "id": 539,
-    "type": 1,
     "code": "Z11",
     "nation": 0,
-    "name": "Z11"
+    "name": "Z11",
+    "type": 1,
+    "id": 539
   },
   "540": {
-    "id": 540,
-    "type": 1,
     "code": "Z52",
     "nation": 0,
-    "name": "Z52"
+    "name": "Z52",
+    "type": 1,
+    "id": 540
   },
   "541": {
-    "id": 541,
-    "type": 1,
     "code": "Duisburg",
     "nation": 0,
-    "name": "Duisburg"
+    "name": "Duisburg",
+    "type": 1,
+    "id": 541
   },
   "542": {
-    "id": 542,
-    "type": 1,
     "code": "Fritz Rumey",
     "nation": 0,
-    "name": "Fritz Rumey"
+    "name": "Fritz Rumey",
+    "type": 1,
+    "id": 542
   },
   "543": {
-    "id": 543,
-    "type": 1,
     "code": "Admiral Hipper META",
     "nation": 0,
-    "name": "Admiral Hipper META"
+    "name": "Admiral Hipper META",
+    "type": 1,
+    "id": 543
   },
   "544": {
-    "id": 544,
-    "type": 1,
     "code": "Little Ägir",
     "nation": 0,
-    "name": "Little Ägir"
+    "name": "Little Ägir",
+    "type": 1,
+    "id": 544
   },
   "545": {
-    "id": 545,
-    "type": 1,
     "code": "U-552",
     "nation": 0,
-    "name": "U-552"
+    "name": "U-552",
+    "type": 1,
+    "id": 545
   },
   "546": {
-    "id": 546,
-    "type": 1,
     "code": "Zenker",
     "nation": 0,
-    "name": "Admiral Zenker"
+    "name": "Admiral Zenker",
+    "type": 1,
+    "id": 546
   },
   "547": {
-    "id": 547,
-    "type": 1,
     "code": "Zenker",
     "nation": 0,
-    "name": "Zenker"
+    "name": "Zenker",
+    "type": 1,
+    "id": 547
   },
   "548": {
-    "id": 548,
-    "type": 1,
     "code": "U-552",
     "nation": 0,
-    "name": "U-552"
+    "name": "U-552",
+    "type": 1,
+    "id": 548
   },
   "549": {
-    "id": 549,
-    "type": 1,
     "code": "U-37",
     "nation": 0,
-    "name": "U-37"
+    "name": "U-37",
+    "type": 1,
+    "id": 549
   },
   "550": {
-    "id": 550,
-    "type": 1,
     "code": "Mecklenburg",
     "nation": 0,
-    "name": "Mecklenburg"
+    "name": "Mecklenburg",
+    "type": 1,
+    "id": 550
   },
   "551": {
-    "id": 551,
-    "type": 1,
     "code": "Boise META",
     "nation": 0,
-    "name": "Boise META"
+    "name": "Boise META",
+    "type": 1,
+    "id": 551
   },
   "552": {
-    "id": 552,
-    "type": 1,
     "code": "Regensburg META",
     "nation": 0,
-    "name": "Regensburg META"
+    "name": "Regensburg META",
+    "type": 1,
+    "id": 552
   },
   "553": {
-    "id": 553,
-    "type": 1,
     "code": "Köln META",
     "nation": 0,
-    "name": "Köln META"
+    "name": "Köln META",
+    "type": 1,
+    "id": 553
   },
   "563": {
-    "id": 563,
-    "type": 1,
     "code": "Unzen-chan",
     "nation": 0,
-    "name": "Unzen-chan"
+    "name": "Unzen-chan",
+    "type": 1,
+    "id": 563
   },
   "554": {
-    "id": 554,
-    "type": 1,
     "code": "Musashi-chan",
     "nation": 0,
-    "name": "Musashi-chan"
+    "name": "Musashi-chan",
+    "type": 1,
+    "id": 554
   },
   "555": {
-    "id": 555,
-    "type": 1,
     "code": "Königsberg META",
     "nation": 0,
-    "name": "Königsberg META"
+    "name": "Königsberg META",
+    "type": 1,
+    "id": 555
   },
   "556": {
-    "id": 556,
-    "type": 1,
     "code": "Elbe META",
     "nation": 0,
-    "name": "Elbe META"
+    "name": "Elbe META",
+    "type": 1,
+    "id": 556
   },
   "557": {
-    "id": 557,
-    "type": 1,
     "code": "Götz von Berlichingen",
     "nation": 0,
-    "name": "Götz von Berlichingen"
+    "name": "Götz von Berlichingen",
+    "type": 1,
+    "id": 557
   },
   "558": {
-    "id": 558,
-    "type": 1,
     "code": "U-2501",
     "nation": 0,
-    "name": "U-2501"
+    "name": "U-2501",
+    "type": 1,
+    "id": 558
   },
   "559": {
-    "id": 559,
-    "type": 1,
     "code": "Prinz Moritz",
     "nation": 0,
-    "name": "Prinz Moritz"
+    "name": "Prinz Moritz",
+    "type": 1,
+    "id": 559
   },
   "560": {
-    "id": 560,
-    "type": 1,
     "code": "Z14",
     "nation": 0,
-    "name": "Z14"
+    "name": "Z14",
+    "type": 1,
+    "id": 560
   },
   "561": {
-    "id": 561,
-    "type": 1,
     "code": "Z15",
     "nation": 0,
-    "name": "Z15"
+    "name": "Z15",
+    "type": 1,
+    "id": 561
   },
   "562": {
-    "id": 562,
-    "type": 1,
     "code": "Götz",
     "nation": 0,
-    "name": "Götz"
+    "name": "Götz",
+    "type": 1,
+    "id": 562
   },
   "564": {
-    "id": 564,
-    "type": 1,
     "code": "Götz von Berlichingen",
     "nation": 0,
-    "name": "Götz von Berlichingen"
+    "name": "Götz von Berlichingen",
+    "type": 1,
+    "id": 564
   },
   "565": {
-    "id": 565,
-    "type": 1,
     "code": "Max Immelmann",
     "nation": 0,
-    "name": "Max Immelmann"
+    "name": "Max Immelmann",
+    "type": 1,
+    "id": 565
   },
   "566": {
-    "id": 566,
-    "type": 1,
     "code": "Ancient Dragon of Steel, Immortal Monarch of the Welkin",
     "nation": 0,
-    "name": "Ancient Dragon of Steel, Immortal Monarch of the Welkin"
+    "name": "Ancient Dragon of Steel, Immortal Monarch of the Welkin",
+    "type": 1,
+    "id": 566
   },
   "567": {
-    "id": 567,
-    "type": 1,
     "code": "Nürnberg META",
     "nation": 0,
-    "name": "Nürnberg META"
+    "name": "Nürnberg META",
+    "type": 1,
+    "id": 567
   },
   "10000": {
-    "id": 10000,
-    "type": 2,
     "code": "Type 0 Fighter Model 52",
     "nation": 0,
-    "name": "Type 0 Fighter Model 52"
+    "name": "Type 0 Fighter Model 52",
+    "type": 2,
+    "id": 10000
   },
   "10001": {
-    "id": 10001,
-    "type": 2,
     "code": "Tenzan",
     "nation": 0,
-    "name": "Tenzan"
+    "name": "Tenzan",
+    "type": 2,
+    "id": 10001
   },
   "10002": {
-    "id": 10002,
-    "type": 2,
     "code": "F6F Hellcat",
     "nation": 0,
-    "name": "F6F Hellcat"
+    "name": "F6F Hellcat",
+    "type": 2,
+    "id": 10002
   },
   "10003": {
-    "id": 10003,
-    "type": 2,
     "code": "SB2C Helldiver",
     "nation": 0,
-    "name": "SB2C Helldiver"
+    "name": "SB2C Helldiver",
+    "type": 2,
+    "id": 10003
   },
   "10004": {
-    "id": 10004,
-    "type": 2,
     "code": "Aichi E16A Zuiun",
     "nation": 0,
-    "name": "Aichi E16A Zuiun"
+    "name": "Aichi E16A Zuiun",
+    "type": 2,
+    "id": 10004
   },
   "10005": {
-    "id": 10005,
-    "type": 2,
     "code": "Seafang",
     "nation": 0,
-    "name": "Seafang"
+    "name": "Seafang",
+    "type": 2,
+    "id": 10005
   },
   "10006": {
-    "id": 10006,
-    "type": 2,
     "code": "F6F Hellcat (HVAR-Mounted)",
     "nation": 0,
-    "name": "F6F Hellcat (HVAR-Mounted)"
+    "name": "F6F Hellcat (HVAR-Mounted)",
+    "type": 2,
+    "id": 10006
   },
   "10007": {
-    "id": 10007,
-    "type": 2,
     "code": "Tenzan Kai",
     "nation": 0,
-    "name": "Tenzan Kai"
+    "name": "Tenzan Kai",
+    "type": 2,
+    "id": 10007
   }
 }

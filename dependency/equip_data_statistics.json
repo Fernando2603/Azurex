@@ -167665,6 +167665,111 @@
     "value_2": 354,
     "anti_siren": 300
   },
+  "151320": {
+    "id": 151320,
+    "name": "Mage's Grimoire",
+    "type": 10,
+    "icon": "151320",
+    "rarity": 4,
+    "nationality": 7,
+    "descrip": "Turn the pages, and the words of power locked within will leap forth on their own!",
+    "ammo": 10,
+    "value_1": "150",
+    "value_2": 0,
+    "value_3": 0,
+    "attribute_1": "durability",
+    "torpedo_ammo": 0,
+    "speciality": "<[NA]>",
+    "tech": 0,
+    "skill_id": [
+      [
+        61180,
+        1
+      ]
+    ],
+    "hidden_skill_id": [],
+    "ammo_info": [],
+    "equip_info": [
+      6
+    ],
+    "weapon_id": [],
+    "ammo_icon": [],
+    "part_main": [],
+    "part_sub": [],
+    "label": [
+      "SN",
+      "DEV"
+    ],
+    "property_rate": [],
+    "equip_parameters": {}
+  },
+  "151321": {
+    "id": 151321,
+    "base": 151320,
+    "value_1": "180",
+    "hidden_skill_id": []
+  },
+  "151322": {
+    "id": 151322,
+    "base": 151320,
+    "value_1": "210",
+    "hidden_skill_id": []
+  },
+  "151323": {
+    "id": 151323,
+    "base": 151320,
+    "value_1": "240",
+    "hidden_skill_id": []
+  },
+  "151324": {
+    "id": 151324,
+    "base": 151320,
+    "value_1": "270",
+    "hidden_skill_id": []
+  },
+  "151325": {
+    "id": 151325,
+    "base": 151320,
+    "value_1": "300",
+    "hidden_skill_id": []
+  },
+  "151326": {
+    "id": 151326,
+    "base": 151320,
+    "value_1": "330",
+    "hidden_skill_id": []
+  },
+  "151327": {
+    "id": 151327,
+    "base": 151320,
+    "value_1": "360",
+    "hidden_skill_id": []
+  },
+  "151328": {
+    "id": 151328,
+    "base": 151320,
+    "value_1": "390",
+    "hidden_skill_id": []
+  },
+  "151329": {
+    "id": 151329,
+    "base": 151320,
+    "value_1": "420",
+    "hidden_skill_id": []
+  },
+  "151330": {
+    "id": 151330,
+    "base": 151320,
+    "value_1": "450",
+    "hidden_skill_id": []
+  },
+  "151331": {
+    "id": 151331,
+    "base": 151320,
+    "value_1": "475",
+    "anti_siren": 100,
+    "hidden_skill_id": []
+  },
   "170001": {
     "id": 170001,
     "name": "专属弹幕-古比雪夫I",
@@ -169644,6 +169749,109 @@
     "hidden_skill_id": [],
     "weapon_id": [
       171162
+    ]
+  },
+  "171191": {
+    "id": 171191,
+    "name": "All Out Assault I",
+    "type": 1,
+    "icon": "1",
+    "rarity": 1,
+    "nationality": 0,
+    "descrip": "Barrage",
+    "ammo": 10,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "torpedo_ammo": 0,
+    "speciality": "<[NA]>",
+    "tech": 1,
+    "skill_id": [],
+    "hidden_skill_id": [],
+    "ammo_info": [],
+    "equip_info": [],
+    "weapon_id": [
+      171191
+    ],
+    "ammo_icon": [],
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "label": [],
+    "property_rate": [],
+    "equip_parameters": {}
+  },
+  "171192": {
+    "id": 171192,
+    "name": "All Out Assault II",
+    "base": 171191,
+    "hidden_skill_id": [],
+    "weapon_id": [
+      171192,
+      171193
+    ]
+  },
+  "171201": {
+    "id": 171201,
+    "name": "All Out Assault I",
+    "type": 1,
+    "icon": "1",
+    "rarity": 1,
+    "nationality": 0,
+    "descrip": "Barrage",
+    "ammo": 10,
+    "value_1": "0",
+    "value_2": 0,
+    "value_3": 0,
+    "torpedo_ammo": 0,
+    "speciality": "<[NA]>",
+    "tech": 1,
+    "skill_id": [],
+    "hidden_skill_id": [],
+    "ammo_info": [],
+    "equip_info": [],
+    "weapon_id": [
+      171201
+    ],
+    "ammo_icon": [],
+    "part_main": [
+      1,
+      19,
+      20,
+      21
+    ],
+    "part_sub": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      18
+    ],
+    "label": [],
+    "property_rate": [],
+    "equip_parameters": {}
+  },
+  "171202": {
+    "id": 171202,
+    "name": "All Out Assault II",
+    "base": 171201,
+    "hidden_skill_id": [],
+    "weapon_id": [
+      171202
     ]
   },
   "180000": {
